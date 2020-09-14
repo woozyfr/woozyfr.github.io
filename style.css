@@ -1,0 +1,52 @@
+#carouselExampleControls{
+    margin-bottom: 30px;
+}
+
+footer{
+    color:#cccccc;
+    background-color: #333333;
+    padding:20px;
+}
+
+footer a{
+    color:#cccccc;
+    text-decoration: none;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a:hover{
+    color:#FFF;
+    text-decoration: none;
+}
+
+
+form{
+    margin: 20px 0px;
+}
+
+.footerSecondZone{
+    text-align: right;
+}
+
+.RewardAmount{
+    width:90%;
+    position: absolute;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    color:#FFF;
+    text-align: center;
+    padding:5px;
+     display: none;
+}
+
+
+.card:hover .RewardAmount{
+    display: block;
+}
