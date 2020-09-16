@@ -142,12 +142,15 @@ footer{
 }
 
 
-#formsSection{
+#formsSection, #capturedSection{
     background: url("../images/bg_dark.png"); 
     background-repeat: repeat;
     padding:15px;
 }
 
+#capturedSection{
+    padding:30px;
+}
 .bg-orange{
     background-color: #fe661d;
 }
@@ -164,23 +167,48 @@ footer{
     font-size: 16px;
 }
 
-.fellowsSymbol,.formsTitleSymbol{
+.fellowsSymbol,.formsTitleSymbol,.capturedSymbol{
     font-family: "Tengwar", serif;
     font-size: 36px;
     color: #fe661d;
 }
 
-.formsTitle{
+.formsTitle,.capturedTitle{
     font-family: "Aniron", serif;
     font-size: 24px;
     color:#FFF;
 }
 
+.capturedLine{
+    margin: 35px 15px 0px 15px;
+ 
+}
+.capturedText{
+    font-family: "PartyBusiness", serif;
+    font-size: 24px;
+    color:#FFF;
+}
 
 .fellowsSymbol{
     font-family: "Tengwar", serif;
     font-size: 36px;
     color: #fe661d;
+}
+
+#capturedButton{
+        display:inline-block;
+        padding:25px;
+        background-color: #FFF;
+        -moz-transform: skew(-30deg, 0deg);
+        -webkit-transform: skew(-30deg, 0deg);
+        -o-transform: skew(-30deg, 0deg);
+        -ms-transform: skew(-30deg, 0deg);
+        transform: skew(-30deg, 0deg);
+        font-family: "Aniron", serif;
+        font-size: 24px;
+        color: #fe661d;
+        margin: auto;
+ 
 }
 
 .carousel-caption {
