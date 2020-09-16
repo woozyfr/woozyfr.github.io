@@ -256,15 +256,6 @@ footer{
 }
 
 
-.carousel-control-next-icon {
-    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E);
-}
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSI1OTUuMjhweCIgaGVpZ2h0PSI4NDEuODlweCIgdmlld0JveD0iMCAwIDU5NS4yOCA4NDEuODkiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU5NS4yOCA4NDEuODkiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9IkNhbHF1ZV8xIj4NCjwvZz4NCjxnIGlkPSJDYWxxdWVfMiI+DQoJPHBhdGggZmlsbD0iI0Q4RDhEOCIgc3Ryb2tlPSIjRDhEOEQ4IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0yMzIuNjY3LDUwLjY2N2MwLDAsMS4zMzMtOC4zMzMsMTguNSw0DQoJCUMyNjguMzMzLDY3LDI3MS41LDY4LjMzMywyNzEuNSw3Mi4xNjdzLTI5LjE2NywyNC4xNjctMzQsMjRjLTQuODMzLTAuMTY3LTkuMzMzLTAuMzMzLTQtMy44MzMNCgkJYzUuMzMzLTMuNSwyMi40OTktMTUuNzUyLDI0LjE2Ny0yMC4yOTJDMjU5LjMzMyw2Ny41LDIzMy41LDUxLjY2NywyMzMsNTEuNjY3UzIzMi42NjcsNTAuNjY3LDIzMi42NjcsNTAuNjY3eiIvPg0KPC9nPg0KPC9zdmc+DQo=
-
-.carousel-control-prev-icon {
-    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E);
-}
-
 /* SM : Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 767.98px) {
