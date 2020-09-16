@@ -126,7 +126,8 @@ footer{
 
 
 
-#rewardsSection,#huntersSection{
+
+#rewardsSection,#huntersSection,#joinMordorArmy{
     background: url("../images/bg_light.png"); 
     background-repeat: repeat;
     padding: 20px;
@@ -142,7 +143,7 @@ footer{
 }
 
 
-#formsSection, #capturedSection{
+#formsSection, #capturedSection,#aboutTheRing{
     background: url("../images/bg_dark.png"); 
     background-repeat: repeat;
     padding:15px;
@@ -304,9 +305,90 @@ footer{
         margin: auto;
 }
 
+.aboutTheRingPanel > .panel-heading{
+    border-radius: 8px 8px 0px 0px;
+    background-color: #fe661d;
+    padding:8px;
+    color: #FFFF;
+    font-family: "Aniron", serif;
+    font-size: 22px;
+}
+
+
+.aboutTheRingPanel > .panel-body{
+    background-color: #dedddb;
+    padding:15px 30px;
+    color: #000;
+    font-family: "Aniron", serif;
+    font-size: 22px;
+    border-bottom: 3px solid #fe661d;
+    margin-bottom: 25px;
+
+}
+
+.gollumText, .gollumSign{
+    font-family: "PartyBusiness", serif;
+    font-size: 32px;
+}
+
+
+.gollumSign{
+    font-family: "PartyBusiness", serif;
+    color:#787878;
+}
+
+.gollumText{
+    margin: 25px 40px 0px 30px;
+}
+
+
+.aboutTheRingCirclePicture{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("../images/gollum.png");
+    background-size: cover;
+    background-position: center;
+ }
+
+
+.aboutTheRingPanel > .panel-body > .sentenceAboutTheRing{
+    color: #000;
+    font-family: "PartyBusiness", serif;
+    font-size: 32px;
+}
+
+.capabilities-table{
+
+}
+
+.capabilities-table > thead > tr{
+    border-bottom: 3px solid #5f5b58;
+}
+
+.capabilities-table > tbody td {
+    vertical-align: top;
+    border-top: 1px solid #65605d;
+    padding:10px 40px;
+    color: #65605d;
+}
+
+.capabilities-table > tbody td {
+    vertical-align: top;
+    border-top: 1px solid #65605d;
+    padding:10px 40px;
+    color: #65605d;
+}
+
+ #aboutTheRingPictureRounded{
+    width: 180px;
+    height: 180px;
+}
+
+
 .carousel-caption {
     text-align: left;
-
     right: 15%;
     top: 40%;
     left: 15%;
