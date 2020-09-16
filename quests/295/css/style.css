@@ -213,23 +213,23 @@ footer{
 
 @font-face {
     font-family: "Aniron";
-    src: url("/fonts/aniron-font/AnironcBold-PKwr.ttf") format("truetype"),
-    url("/fonts/aniron-font/AnironBold-mL9P.ttf") format("truetype"),
-    url("/fonts/aniron-font/Aniron-7BaP.ttf") format("truetype"),
-    url("/fonts/aniron-font/Anironc-d9DK.ttf") format("truetype");
+    src: url("../fonts/aniron-font/AnironcBold-PKwr.ttf") format("truetype"),
+    url("../fonts/aniron-font/AnironBold-mL9P.ttf") format("truetype"),
+    url("../fonts/aniron-font/Aniron-7BaP.ttf") format("truetype"),
+    url("../fonts/aniron-font/Anironc-d9DK.ttf") format("truetype");
 }
    
 @font-face {
     font-family: "PartyBusiness";
-    src: url("/fonts/party-business-font/PartyBusiness-4B0K.ttf") format("truetype");
+    src: url("../fonts/party-business-font/PartyBusiness-4B0K.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Tengwar";
-    src: url("/fonts/tengwar_annatar/tngan.ttf") format("truetype"),
-    url("/fonts/tengwar_annatar/tnganb.ttf") format("truetype"),
-    url("/fonts/tengwar_annatar/tnganbi.ttf") format("truetype"),
-    url("/fonts/tengwar_annatar/tngani.ttf") format("truetype");
+    src: url("../fonts/tengwar_annatar/tngan.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tnganb.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tnganbi.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tngani.ttf") format("truetype");
 }
 
 .font-Aniron{
