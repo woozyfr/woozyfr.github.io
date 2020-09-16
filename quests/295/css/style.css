@@ -1,0 +1,336 @@
+body{
+    background-color: #000;
+}
+
+.container{
+    padding: 22px 15px;
+    background-color: #FFF;
+}
+
+#carouselExampleControls{
+    margin-bottom: 30px;
+}
+
+
+
+
+footer{
+    color:#cccccc;
+    background-color: #333333;
+    padding:20px;
+}
+
+footer a{
+    color:#cccccc;
+    text-decoration: none;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a:hover{
+    color:#FFF;
+    text-decoration: none;
+}
+
+
+form{
+    margin: 20px 0px;
+}
+
+
+.RewardAmount{
+    width:80%;
+    position: absolute;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color:#000;
+    text-align: center;
+    padding:5px;
+    background-color:rgba(255,255,255,0.9);
+    font-family: "PartyBusiness", serif;
+    font-size: 32px;
+    z-index: 20;
+    box-shadow: 0 0 7px 10px rgba(255,255,255,0.9);
+    border-radius: 10px;
+}
+
+.dividerLine{
+line-height: 40px;
+color: rgba(255,255,255,.9);
+}
+
+#mapImg{
+    margin-top: 45px;
+}
+
+footer{
+    font-family: "Aniron", serif;
+    color:#FFF;
+    font-size: 14px;
+    line-height: 34px;
+}
+.card-img-top{
+    opacity: 0.5;
+}
+
+.RewardAmount > span{
+    color:#fe661d;
+}
+
+.NameFellowsCard{
+    width:90%;
+    position: absolute;
+    top:30%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color:#000;
+    text-align: center;
+    padding:5px;
+    font-family: "PartyBusiness", serif;
+    font-size:62px;
+    color:#FFF;
+    opacity: 1;
+    z-index: 21;
+}
+
+.NameFellowsDeadCard{
+    text-decoration: line-through #fe661d;
+}
+
+.RibbonsFellowsDeadCard{
+    width:90%;
+    position: absolute;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color:#000;
+    text-align: center;
+    font-family: "PartyBusiness", serif;
+    font-size:62px;
+    color:#fe661d;
+    z-index: 20;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.9);
+}
+
+
+
+#rewardsSection{
+    background: url("/images/bg_light.png"); 
+    background-repeat: repeat;
+    padding: 20px;
+}
+
+#fellowsTitleSection{
+    margin-bottom: 20px;
+}
+
+#carouselExampleControls{
+    padding:0px;
+    margin:0px;
+}
+
+
+#formsSection{
+    background: url("/images/bg_dark.png"); 
+    background-repeat: repeat;
+    padding:15px;
+}
+
+.bg-orange{
+    background-color: #fe661d;
+}
+
+
+.fellowsTitle{
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fellowsPunchline{
+    font-family: "Aniron", serif;
+    font-size: 16px;
+}
+
+.fellowsSymbol,.formsTitleSymbol{
+    font-family: "Tengwar", serif;
+    font-size: 36px;
+    color: #fe661d;
+}
+
+.formsTitle{
+    font-family: "Aniron", serif;
+    font-size: 24px;
+    color:#FFF;
+}
+
+
+.fellowsSymbol{
+    font-family: "Tengwar", serif;
+    font-size: 36px;
+    color: #fe661d;
+}
+
+.carousel-caption {
+    text-align: left;
+
+    right: 15%;
+    top: 40%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-group{
+    margin :30px;
+}
+
+.carousel-caption > h5{
+    font-family: "PartyBusiness", serif;
+    font-size: 60px;
+}
+
+.carousel-caption > small{
+    font-family: "PartyBusiness", serif;
+    font-size: 34px;
+}
+
+/* Fonts */
+
+
+@font-face {
+    font-family: "Aniron";
+    src: url("/fonts/aniron-font/AnironcBold-PKwr.ttf") format("truetype"),
+    url("/fonts/aniron-font/AnironBold-mL9P.ttf") format("truetype"),
+    url("/fonts/aniron-font/Aniron-7BaP.ttf") format("truetype"),
+    url("/fonts/aniron-font/Anironc-d9DK.ttf") format("truetype");
+}
+   
+@font-face {
+    font-family: "PartyBusiness";
+    src: url("/fonts/party-business-font/PartyBusiness-4B0K.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tengwar";
+    src: url("/fonts/tengwar_annatar/tngan.ttf") format("truetype"),
+    url("/fonts/tengwar_annatar/tnganb.ttf") format("truetype"),
+    url("/fonts/tengwar_annatar/tnganbi.ttf") format("truetype"),
+    url("/fonts/tengwar_annatar/tngani.ttf") format("truetype");
+}
+
+.font-Aniron{
+    font-family: "Aniron", serif;
+}
+
+.font-PartyBusiness{
+    font-family: "PartyBusiness", serif;
+}
+
+.font-Tengwar{
+    font-family: "Tengwar", serif;
+}
+
+
+.card{
+    background-color: #13140e;
+}
+
+.card-title{
+    font-family: "PartyBusiness", serif;
+    color: #878787;
+    font-size: 28px;
+}
+
+
+.carousel-control-next-icon {
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E);
+}
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSI1OTUuMjhweCIgaGVpZ2h0PSI4NDEuODlweCIgdmlld0JveD0iMCAwIDU5NS4yOCA4NDEuODkiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU5NS4yOCA4NDEuODkiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGcgaWQ9IkNhbHF1ZV8xIj4NCjwvZz4NCjxnIGlkPSJDYWxxdWVfMiI+DQoJPHBhdGggZmlsbD0iI0Q4RDhEOCIgc3Ryb2tlPSIjRDhEOEQ4IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0yMzIuNjY3LDUwLjY2N2MwLDAsMS4zMzMtOC4zMzMsMTguNSw0DQoJCUMyNjguMzMzLDY3LDI3MS41LDY4LjMzMywyNzEuNSw3Mi4xNjdzLTI5LjE2NywyNC4xNjctMzQsMjRjLTQuODMzLTAuMTY3LTkuMzMzLTAuMzMzLTQtMy44MzMNCgkJYzUuMzMzLTMuNSwyMi40OTktMTUuNzUyLDI0LjE2Ny0yMC4yOTJDMjU5LjMzMyw2Ny41LDIzMy41LDUxLjY2NywyMzMsNTEuNjY3UzIzMi42NjcsNTAuNjY3LDIzMi42NjcsNTAuNjY3eiIvPg0KPC9nPg0KPC9zdmc+DQo=
+
+.carousel-control-prev-icon {
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E);
+}
+
+/* SM : Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 767.98px) {
+
+    .card{
+        margin-top: 20px;
+    }
+ 
+    #copyr{
+        text-align: center;
+    }
+
+    .fellowsTitle{
+        text-align: center;
+        font-size: 16px;
+    }
+    .fellowsPunchline{
+        text-align: center;
+        font-size: 12px;
+    }
+    .fellowsSymbol{
+        text-align: center;
+        font-size: 26px;
+    }
+
+
+    .carousel-caption > h5{
+        font-family: "PartyBusiness", serif;
+        font-size: 20px;
+    }
+    
+    .carousel-caption > small{
+        font-family: "PartyBusiness", serif;
+        font-size: 14px;
+    }
+    
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .carousel-caption > h5{
+        font-family: "PartyBusiness", serif;
+        font-size: 40px;
+    }
+    
+    .carousel-caption > small{
+        font-family: "PartyBusiness", serif;
+        font-size: 24px;
+    }
+
+}
+
+
+
+
+@media (max-width: 991.98px) { 
+    .dividerLine{
+        display: none;
+    }
+}
+
+
+
+
+
