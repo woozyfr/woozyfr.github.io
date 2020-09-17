@@ -107,6 +107,50 @@ text color
 }
 
 
+/*
+text sized
+*/
+
+
+.txt-small{
+    font-size: 12px;
+}
+
+
+.txt-medium{
+    font-size: 18px;
+}
+
+
+.txt-large{
+    font-size: 26px;
+}
+
+
+.txt-xlarge{
+    font-size: 32px;
+}
+
+/*
+Padding
+*/
+
+
+.pad-10px{
+    padding:10px;
+}
+
+.pad-15px{
+    padding:15px;
+}
+
+.pad-20px{
+    padding:20px;
+}
+
+.pad-30px{
+    padding:30px;
+}
 /***** Skewed functionality *****/
 
 .skewed {
@@ -123,6 +167,64 @@ text color
 }
 
   
+
+/* Fonts */
+
+
+@font-face {
+    font-family: "Aniron";
+    src: url("../fonts/aniron-font/AnironcBold-PKwr.ttf") format("truetype"),
+    url("../fonts/aniron-font/AnironBold-mL9P.ttf") format("truetype"),
+    url("../fonts/aniron-font/Aniron-7BaP.ttf") format("truetype"),
+    url("../fonts/aniron-font/Anironc-d9DK.ttf") format("truetype");
+}
+   
+@font-face {
+    font-family: "PartyBusiness";
+    src: url("../fonts/party-business-font/PartyBusiness-4B0K.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tengwar";
+    src: url("../fonts/tengwar_annatar/tngan.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tnganb.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tnganbi.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tngani.ttf") format("truetype");
+}
+
+.font-Aniron{
+    font-family: "Aniron", serif;
+}
+
+.font-PartyBusiness{
+    font-family: "PartyBusiness", serif;
+}
+
+.font-Tengwar{
+    font-family: "Tengwar", serif;
+}
+
+
+
+
+
+
+
+
+
+/*
+text styles
+*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -571,41 +673,6 @@ footer{
     font-size: 34px;
 }
 
-/* Fonts */
-
-
-@font-face {
-    font-family: "Aniron";
-    src: url("../fonts/aniron-font/AnironcBold-PKwr.ttf") format("truetype"),
-    url("../fonts/aniron-font/AnironBold-mL9P.ttf") format("truetype"),
-    url("../fonts/aniron-font/Aniron-7BaP.ttf") format("truetype"),
-    url("../fonts/aniron-font/Anironc-d9DK.ttf") format("truetype");
-}
-   
-@font-face {
-    font-family: "PartyBusiness";
-    src: url("../fonts/party-business-font/PartyBusiness-4B0K.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Tengwar";
-    src: url("../fonts/tengwar_annatar/tngan.ttf") format("truetype"),
-    url("../fonts/tengwar_annatar/tnganb.ttf") format("truetype"),
-    url("../fonts/tengwar_annatar/tnganbi.ttf") format("truetype"),
-    url("../fonts/tengwar_annatar/tngani.ttf") format("truetype");
-}
-
-.font-Aniron{
-    font-family: "Aniron", serif;
-}
-
-.font-PartyBusiness{
-    font-family: "PartyBusiness", serif;
-}
-
-.font-Tengwar{
-    font-family: "Tengwar", serif;
-}
 
 
 .card{
