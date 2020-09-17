@@ -19,6 +19,15 @@
 
 
 
+
+
+  <div align="center" style="background-color: red;">
+    <div class="skewed">
+      <div class="skewed-filter bg-color-black"><a href="#" class="txt-color-white">Contact Us</a></div>
+    </div>
+  </div>
+
+
   <div class="container">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-orange">
@@ -104,16 +113,16 @@
     <!-- Carousel:end -->
 
     <!-- rewards -->
-    <div id="rewardsSection">
+    <div id="rewardsSection" class="bg-section-light">
       <div class="row" id="fellowsTitleSection">
+          <h2>Fellows wanted Dead <small>(or alive if you want to eat them later)</small></h2>
+          
         <div class="col-12">
-          <span class="fellowsSymbol">x</span>
-          <span class="fellowsTitle">Fellows wanted Dead </span>
-          <span class="fellowsPunchline">(or alive if you want to eat them later)</span>
-          <span class="fellowsSymbol">x</span>
-        </div>
-        <div class="col-12">
-          -------------ICI on utilise PILLS
+        <ul class="nav nav-pills nav-justified" id="FellowsPills">
+            <li><a href="#">Most Wanted</a></li>
+            <li class="active"><a href="#">Most Dangerous</a></li>
+            <li><a href="#">Already captured</a></li>
+        </ul>
         </div>
       </div>
 
@@ -163,14 +172,9 @@
     <!-- rewards:end -->
 
     <!-- captured -->
-    <section id="capturedSection">
-      <div class="row">
-        <div class="col-md-12 col-xs-12">
-          <span class="capturedSymbol">x</span>
-          <span class="capturedTitle">I have captured one of them, how to get my reward ?</span>
-          <span class="capturedSymbol">x</span>
-        </div>
-      </div>
+    <section id="capturedSection"  class="bg-section-dark">
+
+      <h2 class="capturedTitle">I have captured one of them, how to get my reward ?</h2>
 
       <div class="row capturedLine">
         <div class="col-md-9 col-xs-12 capturedText">
@@ -196,14 +200,8 @@
 
 
     <!-- hunters -->
-    <section id="huntersSection">
-      <div class="row">
-        <div class="col-md-12 col-xs-12">
-          <span class="huntersSymbol">x</span>
-          <span class="huntersTitle">Our best Hunters</span>
-          <span class="huntersSymbol">x</span>
-        </div>
-      </div>
+    <section id="huntersSection"  class="bg-section-light">
+    <h2 class="huntersTitle">Our best Hunters</h2>
 
 
 
@@ -250,9 +248,9 @@
 
 
     <!-- aboutTheRing -->
-    <section id="aboutTheRing">
+    <section id="aboutTheRing"  class="bg-section-dark">
 
-
+<h2>About the ring</h2>
       <div class="panel panel-primary aboutTheRingPanel">
         <div class="panel-heading ">Ring capabilities</div>
         <div class="panel-body">
@@ -314,17 +312,8 @@
 
 
     <!-- joinMordorArmy -->
-    <section id="joinMordorArmy">
-
-      <div class="row">
-        <div class="col-md-12 col-xs-12">
-          <span class="fellowsSymbol">x</span>
-          <span class="fellowsTitle">Join Mordor Army, We Need You!<< /span>
-              <span class="fellowsSymbol">x</span>
-        </div>
-      </div>
-
-
+    <section id="joinMordorArmy"  class="bg-section-light">
+    <h2>Join Mordor Army, We Need You!</h2>
       <div class="row">
         <div class="col-md-8 col-xs-12">
           <p class="JoinMordorText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia sequi ipsa fugit totam amet laborum mollitia
@@ -338,14 +327,11 @@
 
 
       <div class="row">
-        <div class="col-md-4 col-xs-12">
+        <div class="col-md-3 col-xs-12">
           <img src="images/weneedyou-1.png" class="img-fluid" alt="Gollum">
-
         </div>
-        <div class="col-md-8 col-xs-12">
+        <div class="col-md-9 col-xs-12">
           <div class="JoinMordorMoreInfo">More info on</div>
- 
-
           <div align="center">
             <div class="buttonSkewJoinMordor">
               <div class="skewFilterJoinMordor"><a href="#" class="contentskewJoinMordor">sauronrulesthemall.com</a></div>
@@ -368,12 +354,11 @@
 
 
     <!-- form -->
-    <section id="formsSection">
+    <section id="formsSection"  class="bg-section-dark">
+      <h2>Contact us</h2>
       <div class="row">
         <div class="col-md-6 col-xs-12">
           <form>
-            <h3><span class="formsTitleSymbol">x</span> <span class="formsTitle">Contact us </span><span
-                class="formsTitleSymbol">x</span></h3>
             <div class="form-group">
               <input type="email" class="form-control" placeholder="@">
             </div>

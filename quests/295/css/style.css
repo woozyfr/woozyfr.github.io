@@ -1,3 +1,18 @@
+/*
+Fonts shortcut :
+- PartyBusiness
+- Aniron
+- Tengwar
+
+Color : 
+- Orange : #fe661d
+- 
+*/
+
+
+a faire delete les class symboles et utuliser les before et after
+
+
 body{
     background-color: #000;
 }
@@ -6,6 +21,126 @@ body{
     padding: 22px 15px;
     background-color: #FFF;
 }
+
+
+/*
+Titles
+*/
+
+h2{
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2::after , h2::before{
+    content: 'x';
+    color: #fe661d;
+    font-family: "Tengwar", serif;
+    font-size: 28px;
+    margin:0px 10px;
+  }
+
+
+h2 > small{
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.bg-section-dark h2{
+    color:#fff;
+}
+
+
+.bg-section-light h2{
+    color:#000;
+}
+
+/*
+Background
+*/
+
+
+.bg-section-dark{
+    background: url("../images/bg_dark.png"); 
+    background-repeat: repeat;
+    padding: 20px;
+}
+
+.bg-section-light{
+    background: url("../images/bg_light.png"); 
+    background-repeat: repeat;
+    padding:20px;
+}
+
+.bg-color-orange{
+    background-color:#fe661d;
+}
+
+.bg-color-black{
+    background-color: #000;
+}
+
+.bg-color-white{
+    background-color: #fff;
+}
+
+
+/*
+text color
+*/
+
+
+.txt-color-orange{
+    color:#fe661d;
+}
+
+.txt-color-black{
+    color: #000;
+}
+
+.txt-color-white{
+    color: #fff;
+}
+
+
+/***** Skewed functionality *****/
+
+.skewed {
+    display: flex;
+}
+
+.skewed-filter {
+    transform: skew(-20deg); /* SKEW */
+}
+
+.skewed-filter *{
+    display: inline-block;
+    transform: skew(20deg); /* UNSKEW */
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #carouselExampleControls{
     margin-bottom: 30px;
@@ -124,14 +259,41 @@ footer{
     color: rgba(255,255,255,.9);
 }
 
-
-
-
-#rewardsSection,#huntersSection,#joinMordorArmy{
-    background: url("../images/bg_light.png"); 
-    background-repeat: repeat;
-    padding: 20px;
+#FellowsPills a{
+    font-family: "Aniron", serif;
+    font-size:18px;
+    color:#fe661d;
 }
+
+
+
+#FellowsPills li > a {
+    font-family: "Aniron", serif;
+    font-size:18px;
+    color:#666666;
+}
+
+#FellowsPills li.active > a{
+
+    color:#fe661d;
+    text-decoration: underline;
+}
+
+
+  #FellowsPills li.active > a::after , #FellowsPills li.active > a::before{
+    content: 'b';
+    color: #fe661d;
+    font-family: "Tengwar", serif;
+    font-size: 28px;
+    margin:0px 10px;
+  }
+
+#FellowsPills li{
+    margin: 0px 20px;
+}
+
+
+
 
 #fellowsTitleSection{
     margin-bottom: 20px;
@@ -143,11 +305,7 @@ footer{
 }
 
 
-#formsSection, #capturedSection,#aboutTheRing{
-    background: url("../images/bg_dark.png"); 
-    background-repeat: repeat;
-    padding:15px;
-}
+
 
 #capturedSection{
     padding:30px;
@@ -157,22 +315,6 @@ footer{
 }
 
 
-.fellowsTitle{
-    font-family: "Aniron", serif;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.fellowsPunchline{
-    font-family: "Aniron", serif;
-    font-size: 16px;
-}
-
-.fellowsSymbol,.formsTitleSymbol,.capturedSymbol,.huntersSymbol{
-    font-family: "Tengwar", serif;
-    font-size: 36px;
-    color: #fe661d;
-}
 
 .huntersMediaContent{
     margin:30px;
@@ -284,11 +426,6 @@ footer{
     color:#FFF;
 }
 
-.fellowsSymbol{
-    font-family: "Tengwar", serif;
-    font-size: 36px;
-    color: #fe661d;
-}
 
 #capturedButton{
         display:inline-block;
@@ -351,6 +488,8 @@ footer{
     font-family: "Aniron", serif;
     font-size: 26px;
     color: #fe661d;
+    margin-top: 20px;
+  
 }
 
 
@@ -510,18 +649,33 @@ footer{
         text-align: center;
     }
 
-    .fellowsTitle{
-        text-align: center;
-        font-size: 16px;
-    }
-    .fellowsPunchline{
-        text-align: center;
-        font-size: 12px;
-    }
-    .fellowsSymbol{
-        text-align: center;
-        font-size: 26px;
-    }
+
+
+    /*
+Titles
+*/
+
+h2{
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h2::after , h2::before{
+    content: 'x';
+    color: #fe661d;
+    font-family: "Tengwar", serif;
+    font-size: 26px;
+    margin:0px 10px;
+  }
+
+
+h2 > small{
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 
 
     .carousel-caption > h5{
