@@ -12,7 +12,6 @@ https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties
 */
 
 
-a faire delete les class symboles et utuliser les before et after
 
 
 body{
@@ -255,6 +254,7 @@ Panel
 
 
 
+/* Forms */
 
 
 
@@ -575,6 +575,18 @@ footer{
 }
 
 
+
+
+.center-flex-mordor-box{
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
 .JoinMordorText{
     font-family: "PartyBusiness", serif;
     font-size: 26px;
@@ -585,33 +597,7 @@ footer{
     font-size: 26px;
     color: #fe661d;
     margin-top: 20px;
-  
 }
-
-
-.buttonSkewJoinMordor {
-    padding: 0;
-    display: flex;
-    list-style: none;
-  }
-
-  .skewFilterJoinMordor {
-    transform: skew(-20deg); /* SKEW */
-    background: #000;
-    text-align: center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
-  }
-
-  
-  .skewFilterJoinMordor .contentskewJoinMordor {
-    display: inline-block; /* block or inline-block is needed */
-    text-decoration: none;
-    padding: 10px 15px;
-    transform: skew(20deg); /* UNSKEW */
-    color: #fe661d;
-    font-family: "Aniron", serif;
-    font-size: 24px;
-  }
 
 
 
