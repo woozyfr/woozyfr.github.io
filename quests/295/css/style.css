@@ -26,42 +26,17 @@ https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties
 
 
 
-body{
-    background-color: #000;
-}
-
-.container{
-    padding: 22px 15px;
-    background-color: #FFF;
-}
-
 
 /*
-Titles
+
+  ________.__        ___.          .__    _________ .__                        
+ /  _____/|  |   ____\_ |__ _____  |  |   \_   ___ \|  | _____    ______ ______
+/   \  ___|  |  /  _ \| __ \\__  \ |  |   /    \  \/|  | \__  \  /  ___//  ___/
+\    \_\  \  |_(  <_> ) \_\ \/ __ \|  |__ \     \___|  |__/ __ \_\___ \ \___ \ 
+ \______  /____/\____/|___  (____  /____/  \______  /____(____  /____  >____  >
+        \/                \/     \/               \/          \/     \/     \/ 
+
 */
-
-h2{
-    font-family: "Aniron", serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin: 30px 0px;
-}
-
-h2::after , h2::before{
-    content: 'x';
-    color: #fe661d;
-    font-family: "Tengwar", serif;
-    font-size: 28px;
-    font-weight: 100;
-    margin:0px 10px;
-  }
-
-
-h2 > small{
-    font-family: "Aniron", serif;
-    font-weight: bold;
-    font-size: 18px;
-}
 
 
 .bg-section-dark h2{
@@ -317,11 +292,49 @@ footer{
 
 
 
-#carouselExampleControls{
-    margin-bottom: 30px;
+
+body{
+    background-color: #000;
+}
+
+.container{
+    padding: 22px 15px;
+    background-color: #FFF;
 }
 
 
+/*
+Titles
+*/
+
+h2{
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 30px 0px;
+}
+
+h2::after , h2::before{
+    content: 'x';
+    color: #fe661d;
+    font-family: "Tengwar", serif;
+    font-size: 28px;
+    font-weight: 100;
+    margin:0px 10px;
+  }
+
+
+h2 > small{
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+/* Other */
 
 
 .RewardAmount{
@@ -335,31 +348,19 @@ footer{
     color:#000;
     text-align: center;
     padding:5px;
-    background-color:rgba(255,255,255,0.9);
+    background-color:rgba(255,255,255,0.8);
     font-family: "PartyBusiness", serif;
     font-size: 32px;
     z-index: 20;
-    box-shadow: 0 0 7px 10px rgba(255,255,255,0.9);
-    border-radius: 10px;
-}
-
-.dividerLine{
-line-height: 40px;
-color: rgba(255,255,255,.9);
-}
-
-#mapImg{
-    margin-top: 45px;
-}
-
-
-.card-img-top{
-    opacity: 0.5;
+    box-shadow: 0 0 5px 5px rgba(255,255,255,0.8);
+    border-radius: 5px;
+    line-height: 32px;
 }
 
 .RewardAmount > span{
     color:#fe661d;
 }
+
 
 .NameFellowsCard{
     width:90%;
@@ -378,6 +379,66 @@ color: rgba(255,255,255,.9);
     opacity: 1;
     z-index: 21;
 }
+
+
+
+
+
+.card-img-top{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#carouselExampleControls{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.dividerLine{
+line-height: 40px;
+color: rgba(255,255,255,.9);
+}
+
+
+
 
 .NameFellowsDeadCard{
     text-decoration: line-through #fe661d;
