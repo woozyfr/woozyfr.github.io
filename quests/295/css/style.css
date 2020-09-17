@@ -12,7 +12,6 @@ https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties
 */
 
 /*
-
   /$$$$$$  /$$                 /$$       /$$$$$$$$ /$$                       /$$$$$$$                               /$$                              
  /$$__  $$|__/                | $$      |__  $$__/| $$                      | $$__  $$                             |__/                              
 | $$  \__/ /$$ /$$$$$$$   /$$$$$$$         | $$   | $$$$$$$   /$$$$$$       | $$  \ $$ /$$$$$$   /$$$$$$   /$$$$$$$ /$$  /$$$$$$  /$$   /$$  /$$$$$$$
@@ -21,7 +20,6 @@ https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties
 | $$      | $$| $$  | $$| $$  | $$         | $$   | $$  | $$| $$_____/      | $$     | $$      | $$_____/| $$      | $$| $$  | $$| $$  | $$ \____  $$
 | $$      | $$| $$  | $$|  $$$$$$$         | $$   | $$  | $$|  $$$$$$$      | $$     | $$      |  $$$$$$$|  $$$$$$$| $$|  $$$$$$/|  $$$$$$/ /$$$$$$$/
 |__/      |__/|__/  |__/ \_______/         |__/   |__/  |__/ \_______/      |__/     |__/       \_______/ \_______/|__/ \______/  \______/ |_______/ 
-                                                                                                                                                     
                                  
 */                              
                                  
@@ -120,6 +118,10 @@ text color
 
 .txt-color-white{
     color: #fff;
+}
+
+.txt-color-signs{
+    color:#787878;
 }
 
 
@@ -264,20 +266,26 @@ Panel
 
 
 
+/* navbar */
 
-
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.9);
+}
 
 
 /* Forms */
 
-
-
-
-
-#carouselExampleControls{
-    margin-bottom: 30px;
+form{
+    margin: 20px 0px;
 }
 
+
+
+
+
+
+
+/* Footer */
 
 footer{
     color:#cccccc;
@@ -299,10 +307,23 @@ footer a:hover{
     text-decoration: none;
 }
 
-
-form{
-    margin: 20px 0px;
+footer{
+    font-family: "Aniron", serif;
+    color:#FFF;
+    font-size: 14px;
+    line-height: 34px;
 }
+
+
+
+
+#carouselExampleControls{
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
 .RewardAmount{
@@ -333,12 +354,7 @@ color: rgba(255,255,255,.9);
     margin-top: 45px;
 }
 
-footer{
-    font-family: "Aniron", serif;
-    color:#FFF;
-    font-size: 14px;
-    line-height: 34px;
-}
+
 .card-img-top{
     opacity: 0.5;
 }
@@ -385,9 +401,6 @@ footer{
     z-index: 20;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.9);
-}
 
 #FellowsPills a{
     font-family: "Aniron", serif;
@@ -572,21 +585,6 @@ footer{
         margin: auto;
 }
 
-
-.gollumText, .gollumSign{
-    font-family: "PartyBusiness", serif;
-    font-size: 32px;
-}
-
-
-.gollumSign{
-    font-family: "PartyBusiness", serif;
-    color:#787878;
-}
-
-.gollumText{
-    margin: 25px 40px 0px 30px;
-}
 
 
 
