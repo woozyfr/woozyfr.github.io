@@ -7,6 +7,8 @@ Fonts shortcut :
 Color : 
 - Orange : #fe661d
 - 
+Use variable?
+https://developer.mozilla.org/fr/docs/Web/CSS/Using_CSS_custom_properties
 */
 
 
@@ -31,6 +33,7 @@ h2{
     font-family: "Aniron", serif;
     font-weight: bold;
     font-size: 24px;
+    margin: 30px 0px;
 }
 
 h2::after , h2::before{
@@ -122,6 +125,11 @@ text sized
 }
 
 
+.txt-xmedium{
+    font-size: 22px;
+}
+
+
 .txt-large{
     font-size: 26px;
 }
@@ -151,6 +159,9 @@ Padding
 .pad-30px{
     padding:30px;
 }
+
+
+
 /***** Skewed functionality *****/
 
 .skewed {
@@ -206,16 +217,37 @@ Padding
 
 
 
-
-
-
-
-
-
 /*
 text styles
 */
 
+
+
+/*
+Panel
+*/
+
+
+#aboutTheRing  .panel-heading{
+    border-radius: 8px 8px 0px 0px;
+    background-color: #fe661d;
+    padding:8px;
+    color: #FFFF;
+    font-family: "Aniron", serif;
+    font-size: 22px;
+}
+
+
+#aboutTheRing  .panel-body{
+    background-color: #dedddb;
+    padding:15px 30px;
+    color: #000;
+    font-family: "Aniron", serif;
+    font-size: 22px;
+    border-bottom: 3px solid #fe661d;
+    margin-bottom: 25px;
+
+}
 
 
 
@@ -526,26 +558,6 @@ footer{
         margin: auto;
 }
 
-.aboutTheRingPanel > .panel-heading{
-    border-radius: 8px 8px 0px 0px;
-    background-color: #fe661d;
-    padding:8px;
-    color: #FFFF;
-    font-family: "Aniron", serif;
-    font-size: 22px;
-}
-
-
-.aboutTheRingPanel > .panel-body{
-    background-color: #dedddb;
-    padding:15px 30px;
-    color: #000;
-    font-family: "Aniron", serif;
-    font-size: 22px;
-    border-bottom: 3px solid #fe661d;
-    margin-bottom: 25px;
-
-}
 
 .gollumText, .gollumSign{
     font-family: "PartyBusiness", serif;
