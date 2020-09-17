@@ -324,8 +324,6 @@ footer{
 
 
 
-
-
 .RewardAmount{
     width:80%;
     position: absolute;
@@ -489,69 +487,8 @@ color: rgba(255,255,255,.9);
 }
 
 
-.buttonSkew {
-    padding: 0;
-    display: flex;
-    list-style: none;
-  }
-
-  .skewFilter {
-    transform: skew(-20deg); /* SKEW */
-    background: #FFF;
-    text-align: center;
-  }
-  
-  .skewFilter .contentskew {
-    display: inline-block; /* block or inline-block is needed */
-    text-decoration: none;
-    padding: 10px 15px;
-    transform: skew(20deg); /* UNSKEW */
-    color: #fe661d;
-    font-family: "Aniron", serif;
-    font-size: 24px;
-  }
 
 
-
-
-  .buttonSkewHunters {
-    padding: 0;
-    display: flex;
-    list-style: none;
-  }
-
-  .skewFilterHunters {
-    transform: skew(-20deg); /* SKEW */
-    background: #000;
-    text-align: center;
-  }
-  
-  .skewFilterHunters .contentskewHunters {
-    display: inline-block; /* block or inline-block is needed */
-    text-decoration: none;
-    padding: 2px 10px;
-    transform: skew(20deg); /* UNSKEW */
-    color:#FFF;
-    color: #fe661d;
-    font-family: "PartyBusiness", serif;
-    font-size: 22px;
-  }
-
-
-.moneyHunters{
-    display:inline-block;
-    padding:25px;
-    background-color: #000;
-    -moz-transform: skew(-30deg, 0deg);
-    -webkit-transform: skew(-30deg, 0deg);
-    -o-transform: skew(-30deg, 0deg);
-    -ms-transform: skew(-30deg, 0deg);
-    transform: skew(-30deg, 0deg);
-    font-family: "PartyBusiness", serif;
-    font-size: 32px;
-    color: #fe661d;
-    margin: auto;
-}
 
 .formsTitle,.capturedTitle{
     font-family: "Aniron", serif;
@@ -567,22 +504,6 @@ color: rgba(255,255,255,.9);
     font-family: "PartyBusiness", serif;
     font-size: 24px;
     color:#FFF;
-}
-
-
-#capturedButton{
-        display:inline-block;
-        padding:25px;
-        background-color: #FFF;
-        -moz-transform: skew(-30deg, 0deg);
-        -webkit-transform: skew(-30deg, 0deg);
-        -o-transform: skew(-30deg, 0deg);
-        -ms-transform: skew(-30deg, 0deg);
-        transform: skew(-30deg, 0deg);
-        font-family: "Aniron", serif;
-        font-size: 24px;
-        color: #fe661d;
-        margin: auto;
 }
 
 
