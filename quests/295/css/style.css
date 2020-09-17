@@ -38,6 +38,7 @@ h2::after , h2::before{
     color: #fe661d;
     font-family: "Tengwar", serif;
     font-size: 28px;
+    font-weight: 100;
     margin:0px 10px;
   }
 
@@ -125,28 +126,9 @@ text color
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #carouselExampleControls{
     margin-bottom: 30px;
 }
-
-
 
 
 footer{
