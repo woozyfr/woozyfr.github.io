@@ -1,0 +1,99 @@
+  @mixin rings($color,$size) {
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.0);
+    border:$size solid $color;
+ }
+
+ @mixin rings-shadows($color,$size,$dist) {
+    box-shadow: inset $size $size $dist $color,$size $size $dist $color;
+ }
+
+ .firstline{
+    display: flex;
+    justify-content: center;
+    margin:50px
+ }
+
+ .secondline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px
+ }
+
+
+
+ .firstline > .texte{
+    margin: 0px 25px;
+ }
+
+
+ 
+ .secondline > .texte{
+    margin: 0px 40px;
+    vertical-align: middle;
+ }
+
+
+
+
+
+.ring-orange{
+    height:45px;
+    width:45px;
+    @include rings(#ff5f01,5px);
+}
+
+.ring-yellow{
+    height:150px;
+    width:150px;
+    @include rings(#fece0f,20px);
+    @include rings-shadows(#b59100,6px,7px);
+}
+
+.texte{
+    font-size: 32px;
+    font-family: "Aniron", serif;
+}
+
+
+@font-face {
+    font-family: "Aniron";
+    src: url("fonts/aniron-font/AnironcBold-PKwr.ttf") format("truetype"),
+    url("fonts/aniron-font/AnironBold-mL9P.ttf") format("truetype"),
+    url("fonts/aniron-font/Aniron-7BaP.ttf") format("truetype"),
+    url("fonts/aniron-font/Anironc-d9DK.ttf") format("truetype");
+}
+
+
+.lastline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+    flex-direction: column;
+ }
+
+
+ .ringszone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height:200px;
+    position: relative;
+ }
+
+
+@for $i from 1 through 6 {
+    .ringszone>div:nth-child(#{$i}) {
+        height:50px + ($i * 10);
+        width:50px + ($i * 10);
+        @include rings(#343434,5px + ($i * 1));
+        @include rings-shadows(#000,2px,7px);
+        left: 0px + ($i * 50);
+        position: absolute;
+        display: inline-block;
+        
+    }
+}

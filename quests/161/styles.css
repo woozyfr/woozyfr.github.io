@@ -1,0 +1,170 @@
+.firstline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+}
+
+.secondline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+}
+
+.firstline > .texte {
+  margin: 0px 25px;
+}
+
+.secondline > .texte {
+  margin: 0px 40px;
+  vertical-align: middle;
+}
+
+.ring-orange {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 5px solid #ff5f01;
+}
+
+.ring-yellow {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 20px solid #fece0f;
+  -webkit-box-shadow: inset 6px 6px 7px #b59100, 6px 6px 7px #b59100;
+          box-shadow: inset 6px 6px 7px #b59100, 6px 6px 7px #b59100;
+}
+
+.texte {
+  font-size: 32px;
+  font-family: "Aniron", serif;
+}
+
+@font-face {
+  font-family: "Aniron";
+  src: url("fonts/aniron-font/AnironcBold-PKwr.ttf") format("truetype"), url("fonts/aniron-font/AnironBold-mL9P.ttf") format("truetype"), url("fonts/aniron-font/Aniron-7BaP.ttf") format("truetype"), url("fonts/aniron-font/Anironc-d9DK.ttf") format("truetype");
+}
+
+.lastline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ringszone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+
+.ringszone > div:nth-child(1) {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 6px solid #343434;
+  -webkit-box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+          box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+  left: 50px;
+  position: absolute;
+  display: inline-block;
+}
+
+.ringszone > div:nth-child(2) {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 7px solid #343434;
+  -webkit-box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+          box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+  left: 100px;
+  position: absolute;
+  display: inline-block;
+}
+
+.ringszone > div:nth-child(3) {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 8px solid #343434;
+  -webkit-box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+          box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+  left: 150px;
+  position: absolute;
+  display: inline-block;
+}
+
+.ringszone > div:nth-child(4) {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 9px solid #343434;
+  -webkit-box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+          box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+  left: 200px;
+  position: absolute;
+  display: inline-block;
+}
+
+.ringszone > div:nth-child(5) {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 10px solid #343434;
+  -webkit-box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+          box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+  left: 250px;
+  position: absolute;
+  display: inline-block;
+}
+
+.ringszone > div:nth-child(6) {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0);
+  border: 11px solid #343434;
+  -webkit-box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+          box-shadow: inset 2px 2px 7px #000, 2px 2px 7px #000;
+  left: 300px;
+  position: absolute;
+  display: inline-block;
+}
+/*# sourceMappingURL=styles.css.map */
