@@ -709,6 +709,15 @@ h2 > small{
 
 
     
+    .capabilities-table > *{
+        font-size: 17px !important;
+    }
+    
+
+    .capabilities-table > tbody td {
+        padding: 5px !important;
+    }
+    
 
 .txt-small{
     font-size: 7px;
