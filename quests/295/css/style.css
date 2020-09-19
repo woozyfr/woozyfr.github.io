@@ -383,33 +383,9 @@ h2 > small{
 
 
 
-
 .card-img-top{
     opacity: 0.5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -476,7 +452,7 @@ color: rgba(255,255,255,.9);
 }
 
 #FellowsPills li.active > a{
-
+    line-height: 25px;
     color:#fe661d;
     text-decoration: underline;
 }
@@ -730,6 +706,33 @@ h2 > small{
     }
     
 
+
+
+    
+
+.txt-small{
+    font-size: 7px;
+}
+
+
+.txt-medium{
+    font-size: 12px;
+}
+
+
+.txt-xmedium{
+    font-size: 17px;
+}
+
+
+.txt-large{
+    font-size: 20px;
+}
+
+
+.txt-xlarge{
+    font-size: 24px;
+}
 
 }
 
