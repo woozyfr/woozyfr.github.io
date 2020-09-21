@@ -8,31 +8,84 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Wilde TodoList</title>
   </head>
   <body>
 
 
-
     <div class="container">
       <div class="row">
+        <div class="col-md-8 offset-md-2">
+
+
+          <!-- Logo -->
+      <div class="row">
         <div class="col-md-12">
-              <img src="images/logo.png" class="img-fluid">
+          <div class="text-center">
+            <img src="images/logo.png" class="img-fluid mx-auto">
+           </div>
+          </div>
         </div>
+        <!-- Logo:end -->
+
+        <!-- Create New Task -->
+        <div class="row">
+          <div class="col-md-12">
+              <h2>Create new task</h2>
+              <div class="wtl-panel">
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="title" placeholder="Enter title">
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="More info"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-wtl">New task</button>
+                </form>
+              </div>
+          </div>
       </div>
+      <!-- Create New Task :end-->
 
 
-<footer>
+        <!-- Task list -->
+        <div class="row">
+          <div class="col-md-12">
+              <h2>Task List</h2>
+              <div class="wtl-panel">
+              
+
+                <div>
+                  <div><input type="checkbox"><span class="wtl-task-title">Task</span></div>
+                  <div class="wtl-task-date">Created on 14/12/1980</div>
+                  <div class="wtl-task-msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sunt, vel quibusdam facere nesciunt.</div>
+                </div>
+
+            </div>
+      </div>
+      <!-- Task list :end-->
+
+      <!-- footer -->
+      <footer>
+        <div class="row">
+          <div class="col-md-12">
+              Created by Alex for Wilde Code Shcool
+          </div>
+        </div>
+      </footer>
+      <!-- footer :end-->
 
 
-</footer>
 
+        </div>
+    </div>
 </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/wildTodoList.js"></script>
   </body>
 </html>
