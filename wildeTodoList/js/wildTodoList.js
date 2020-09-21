@@ -10,58 +10,84 @@
 */
 
 
+let number_task = 0;
 
 // Submit forms
 document.getElementById( "newTaskForms").onsubmit = function() {
     let title = document.getElementById("title").value;
     let message = document.getElementById("message").value;
     let date = Date.now();
+    let error_msg = "";
 
-    // console.log(title);
-    // console.log(message);
-    create_task_bloc(title,date,date);
+    if( isEmpty(message) ) {
+        error_msg += "Please fill message\n";
+    }
+
+    if( isEmpty(title) ) {
+        error_msg += "Please fill title\n";
+    }
+
+    if( !isEmpty(error_msg) ) {
+        alert(error_msg);
+        return false;
+    }
+    
+    create_task_bloc(title,date,message);
     title = document.getElementById("title").value = '';
     message = document.getElementById("message").value ='';
     return false;
 };
 
 
+/* Check if var is empty*/
+function isEmpty(str) {
+    return !str.trim().length;
+}
 
+/* Create bloc HTML*/
 function create_task_bloc(title,date=null,message=""){
-    let el = document.createElement('div');
-	el.innerHTML = "Nouvelle task : " + title;
-    document.getElementById('wtl-task-container').appendChild(el);
-    
+    number_task++;
+
     //Create Container
-    let container = document.createElement('div');
-    let html;
-    //Create Checkbox
-    let checkbox = document.createElement('input');
-    checkbox.setAttribute("type", "checkbox");
-    container.appendChild(checkbox);
+    let container_html = document.createElement('div');
+    container_html.setAttribute("class", "wtl-panel");
+    container_html.setAttribute("id", "task-id-"+number_task);
 
+    //Create title
+    let title_html = document.createElement('div');
+    title_html.setAttribute("class", "wtl-task-title");
+    title_html.innerHTML =  title;
 
-        //Create title
-        let title_html = document.createElement('span');
-        title_html.setAttribute("class", "wtl-task-title");
-        checkbox.appendChild(title_html);
+    //Create delete button
+    let delete_button_html = document.createElement('a');
+    delete_button_html.setAttribute("class", "btn-wtl-delete");
+    delete_button_html.innerHTML =  "Supprimer";
+    delete_button_html.setAttribute('href', 'javascript:delete_task_bloc('+number_task+')');
+    title_html.appendChild(delete_button_html);
+    container_html.appendChild(title_html);
 
-        // <span class="wtl-task-title">Task</span>
+    // //Create date
+    let date_html = document.createElement('div');
+    date_html.setAttribute("class", "wtl-task-date");
+    formated_date = new Intl.DateTimeFormat('fr-FR').format(date);
+    date_html.innerHTML = "Created on  : " + formated_date;
+    container_html.appendChild(date_html);
 
+    // //Create date
+    let message_html = document.createElement('div');
+    message_html.setAttribute("class", "wtl-task-msg");
+    message_html.innerHTML = message;
+    container_html.appendChild(message_html);
 
     // Finish push the result
-    document.getElementById('wtl-task-container').appendChild(container);
+    document.getElementById('wtl-task-container').appendChild(container_html);
     
 }
 
-/*
+function delete_task_bloc(id){
+    document.getElementById('task-id-'+id).remove();
+}
 
-                <div>
-                  <div><input type="checkbox"><span class="wtl-task-title">Task</span></div>
-                  <div class="wtl-task-date">Created on 14/12/1980</div>
-                  <div class="wtl-task-msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sunt, vel quibusdam facere nesciunt.</div>
-                </div>
-                */
 
 
 
