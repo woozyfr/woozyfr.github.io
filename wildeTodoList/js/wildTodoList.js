@@ -37,10 +37,11 @@ function init_wildeTodoList(){
 function load_tasklist(){
     console.log("Load all tasks");
     var tmp = JSON.parse(localStorage.getItem('wildeTodoList'));
-    tmp.tasks.forEach(function(item, index, object){
-        create_task_bloc(item.uuid,item.title,item.date,item.message);
-    });
-
+    if(tmp.tasks.length > 0){
+        tmp.tasks.forEach(function(item, index, object){
+            create_task_bloc(item.uuid,item.title,item.date,item.message);
+        });
+    }
 }
 
 
