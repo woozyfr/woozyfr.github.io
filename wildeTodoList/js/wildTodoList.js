@@ -11,6 +11,10 @@
 
 
 let number_task = 0;
+let version = "1.5.3";
+
+
+console.log("Welcome to Wild Todo List v"+version);
 
 load_tasklist();
 // init wildeTodoList
