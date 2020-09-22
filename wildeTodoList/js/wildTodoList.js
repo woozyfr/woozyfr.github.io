@@ -16,10 +16,15 @@ let version = "1.5.3";
 
 console.log("Welcome to Wild Todo List v"+version);
 
+if (localStorage.getItem("wildeTodoList") === null) { // in it
+    init_wildeTodoList();
+}
+
 load_tasklist();
+
 // init wildeTodoList
 function init_wildeTodoList(){
-    console.log("Init object");
+    console.log("Init localStorage");
     initObj = {
         count : 0,
         tasks : [],
@@ -27,16 +32,12 @@ function init_wildeTodoList(){
     localStorage.setItem('wildeTodoList', JSON.stringify(initObj));
 }
 
-if (localStorage.getItem("wildeTodoList") === null) { // in it
-    init_wildeTodoList();
-}
 
-
-
+// load all tasks
 function load_tasklist(){
+    console.log("Load all tasks");
     var tmp = JSON.parse(localStorage.getItem('wildeTodoList'));
     tmp.tasks.forEach(function(item, index, object){
-        console.log(item);
         create_task_bloc(item.uuid,item.title,item.date,item.message);
     });
 
