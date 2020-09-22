@@ -12,12 +12,40 @@
 
 let number_task = 0;
 
+load_tasklist();
+// init wildeTodoList
+function init_wildeTodoList(){
+    console.log("Init object");
+    initObj = {
+        count : 0,
+        tasks : [],
+    }
+    localStorage.setItem('wildeTodoList', JSON.stringify(initObj));
+}
+
+if (localStorage.getItem("wildeTodoList") === null) { // in it
+    init_wildeTodoList();
+}
+
+
+
+function load_tasklist(){
+    var tmp = JSON.parse(localStorage.getItem('wildeTodoList'));
+    tmp.tasks.forEach(function(item, index, object){
+        console.log(item);
+        create_task_bloc(item.uuid,item.title,item.date,item.message);
+    });
+
+}
+
+
 // Submit forms
 document.getElementById( "newTaskForms").onsubmit = function() {
     let title = document.getElementById("title").value;
     let message = document.getElementById("message").value;
     let date = Date.now();
     let error_msg = "";
+    let uuid = uuidv4(); // generate uuid
 
     if( isEmpty(message) ) {
         error_msg += "Please fill message\n";
@@ -31,13 +59,42 @@ document.getElementById( "newTaskForms").onsubmit = function() {
         alert(error_msg);
         return false;
     }
-    
-    create_task_bloc(title,date,message);
+
+    create_task_bloc(uuid,title,date,message);
+    addTaskToDatabase({
+                        "uuid":uuid,
+                        "title":title,
+                        "msg": message,
+                        "date":date
+                    });
     title = document.getElementById("title").value = '';
     message = document.getElementById("message").value ='';
     return false;
+
 };
 
+
+// add to database
+function addTaskToDatabase(input){
+    var tmp = JSON.parse(localStorage.getItem('wildeTodoList'));
+    tmp.tasks.push(input);
+    tmp.count = tmp.tasks.length;
+    localStorage.setItem('wildeTodoList', JSON.stringify(tmp));
+}
+
+
+// delete to database
+function deleteTaskToDatabase(uuid){
+    var tmp = JSON.parse(localStorage.getItem('wildeTodoList'));
+
+    tmp.tasks.forEach(function(item, index, object){
+        if(item.uuid === uuid){
+            object.splice(index, 1);
+        }
+    });
+    localStorage.setItem('wildeTodoList', JSON.stringify(tmp));
+    console.log("Task removed :"+uuid);
+}
 
 /* Check if var is empty*/
 function isEmpty(str) {
@@ -45,13 +102,12 @@ function isEmpty(str) {
 }
 
 /* Create bloc HTML*/
-function create_task_bloc(title,date=null,message=""){
-    number_task++;
+function create_task_bloc(uuid,title,date=null,message=""){
 
     //Create Container
     let container_html = document.createElement('div');
     container_html.setAttribute("class", "wtl-panel");
-    container_html.setAttribute("id", "task-id-"+number_task);
+    container_html.setAttribute("id", "task-id-"+uuid);
 
     //Create title
     let title_html = document.createElement('div');
@@ -62,7 +118,7 @@ function create_task_bloc(title,date=null,message=""){
     let delete_button_html = document.createElement('a');
     delete_button_html.setAttribute("class", "btn-wtl-delete");
     delete_button_html.innerHTML =  "Supprimer";
-    delete_button_html.setAttribute('href', 'javascript:delete_task_bloc('+number_task+')');
+    delete_button_html.setAttribute('href', 'javascript:delete_task_bloc(\''+uuid+'\')');
     title_html.appendChild(delete_button_html);
     container_html.appendChild(title_html);
 
@@ -83,11 +139,15 @@ function create_task_bloc(title,date=null,message=""){
     document.getElementById('wtl-task-container').appendChild(container_html);
     
 }
-
-function delete_task_bloc(id){
-    document.getElementById('task-id-'+id).remove();
+// delete block
+function delete_task_bloc(uuid){
+    deleteTaskToDatabase(uuid);
+    document.getElementById('task-id-'+uuid).remove();
 }
 
-
-
-
+function uuidv4() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+      return v.toString(16);
+    });
+  }

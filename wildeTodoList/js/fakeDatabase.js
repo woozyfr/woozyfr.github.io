@@ -24,6 +24,7 @@ function database_add(key, value){
     localStorage.setItem(key, value);
 }
 
+
 /* Edd */
 function database_edit(key, value){
     database_add(key, value);
@@ -33,3 +34,7 @@ function database_edit(key, value){
 function database_remove(){
     localStorage.removeItem('myCat');
 }
+
+
+
+
