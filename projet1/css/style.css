@@ -1,0 +1,181 @@
+/*
+$$\      $$\ $$\ $$\       $$\       $$$$$$$$\        $$\           
+$$ | $\  $$ |\__|$$ |      $$ |      \__$$  __|       \__|          
+$$ |$$$\ $$ |$$\ $$ | $$$$$$$ |         $$ | $$$$$$\  $$\  $$$$$$\  
+$$ $$ $$\$$ |$$ |$$ |$$  __$$ |         $$ |$$  __$$\ $$ |$$  __$$\ 
+$$$$  _$$$$ |$$ |$$ |$$ /  $$ |         $$ |$$ |  \__|$$ |$$ /  $$ |
+$$$  / \$$$ |$$ |$$ |$$ |  $$ |         $$ |$$ |      $$ |$$ |  $$ |
+$$  /   \$$ |$$ |$$ |\$$$$$$$ |         $$ |$$ |      $$ |$$$$$$$  |
+\__/     \__|\__|\__| \_______|         \__|\__|      \__|$$  ____/ 
+                                                          $$ |      
+                                                          $$ |      
+                                                          \__|      
+*/
+
+
+/* Pour utliser la police Poppins (textes) */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Pour utiliser la police Cabin (titres) */
+/* font-family: 'Cabin Sketch', cursive; */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color:#333333; /* a definir */
+    background-color:#f2f2f2;
+}
+
+
+/***********************************************************
+ -  Titres
+***********************************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Cabin Sketch', cursive;
+    color: 000000; /* a definir */
+    padding:0px; /* a definir */
+    margin:0px; /* a definir */
+} 
+
+h1 {
+    font-size: 72px; /* a definir */
+}
+
+h2 {
+    font-size: 28px; /* a definir */
+}
+
+h3 {
+    font-size: 26px; /* a definir */
+}
+
+h4 {
+    font-size: 24px; /* a definir */
+}
+
+h5 {
+    font-size: 20px; /* a definir */
+}
+
+p {
+    font-size: 16px; /* a definir */
+    line-height: 24px;
+}
+
+/***********************************************************
+ -  Media
+***********************************************************/
+.img-responsive{
+    max-width: 100%;
+}
+
+/***********************************************************
+ -  Actions
+***********************************************************/
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size:14px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">";
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #333333;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  ul.breadcrumb li:last-child a{
+    font-weight: bold;;
+  }
+
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #d55959;
+    text-decoration: none;
+  }
+
+
+
+
+
+a {
+    /* Bouton*/
+    color:#d55959; /* a definir */
+    text-decoration: none; /* a definir */
+}
+
+a:hover {
+    color:red; /* a definir */
+}
+
+/* Bouton*/
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-default{
+    color:#FFF;
+    background-color: #333333;
+}
+
+.btn-default:hover{
+    background-color: #828282;
+    color:#FFF;
+}
+
+
+/***********************************************************
+ -  Blocks
+***********************************************************/
+
+footer {
+    background-color: #444;
+    color: #eee;
+    margin: 0;
+    width: 100%;
+}
+
+
+.main{
+    background-color: #FFF;
+    padding:80px;
+}
+
+
+
+
