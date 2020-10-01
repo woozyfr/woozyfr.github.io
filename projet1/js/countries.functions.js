@@ -52,10 +52,15 @@ function template_coutrny_card(obj) {
     cardContentText.textContent = obj.text;
     cardContent.appendChild(cardContentText);
 
-    const cardContentLink = document.createElement("a");
-    cardContentLink.textContent = "En voir plus";
-    cardContentLink.href = obj.url;
-    cardContentLink.classList.add("btn");
-    cardContentLink.classList.add("btn-default");
-    cardContent.appendChild(cardContentLink);
+    const cardContentButtonContainer = document.createElement("div");
+    cardContentButtonContainer.classList.add("right");
+    cardContent.appendChild(cardContentButtonContainer);
+   
+
+    const cardContentButton = document.createElement("a");
+    cardContentButton.textContent = "En voir plus";
+    cardContentButton.href = obj.slug+".html";
+    cardContentButton.classList.add("btn");
+    cardContentButton.classList.add("btn-default");
+    cardContentButtonContainer.appendChild(cardContentButton);
 }

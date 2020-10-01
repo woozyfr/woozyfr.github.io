@@ -2,7 +2,7 @@ const countriesDatabase = [{
     "name": "Thailand",
     "category_name": "Asia",
     "category_key": "asia",
-    "url": "country.html?p=thailand",
+    "slug": "thailand",
     "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
     "picture": "images/thailand-1400x788-1.jpg"
     },
@@ -10,7 +10,7 @@ const countriesDatabase = [{
         "name": "Chine",
         "category_name": "Asia",
         "category_key": "asia",
-        "url": "country.html?p=chine",
+        "slug": "chine",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
         "picture": "images/sejour-linguistique-chine.jpg"
 
@@ -19,7 +19,7 @@ const countriesDatabase = [{
         "name": "Inde",
         "category_name": "Asia",
         "category_key": "asia",
-        "url": "country.html?p=india",
+        "slug": "india",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
         "picture": "images/india-1370586.jpg"
 
@@ -28,7 +28,7 @@ const countriesDatabase = [{
         "name": "Pérou",
         "category_name": "Amerique",
         "category_key": "america",
-        "url": "country.html?p=thailand",
+        "urslugl": "thailand",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
         "picture": "images/image_processing20180916-4-ezfmel.jpg"
 
@@ -38,7 +38,7 @@ const countriesDatabase = [{
         "name": "Argentine",
         "category_name": "Amerique",
         "category_key": "america",
-        "url": "country.html?p=argentine",
+        "slug": "argentine",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
         "picture": "images/glacier-perito-moreno-parc-national-los-glaciares-patagonie-argentine-609021-1440x720.jpg"
 
@@ -48,7 +48,7 @@ const countriesDatabase = [{
         "name": "Australie",
         "category_name": "Oceanie",
         "category_key": "oceania",
-        "url": "country.html?p=astralia",
+        "slug": "astralia",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
         "picture": "images/expatriation-australie.jpg"
 
@@ -58,7 +58,7 @@ const countriesDatabase = [{
         "name": "Sénégal",
         "category_name": "Afrique",
         "category_key": "africa",
-        "url": "country.html?p=seneral",
+        "slug": "seneral",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
         "picture": "images/pirogues-de-peche-senegal-479771-1440x720.jpg"
 

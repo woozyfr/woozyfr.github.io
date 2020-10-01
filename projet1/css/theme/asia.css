@@ -4,17 +4,17 @@ h2,
 h3,
 h4,
 h5 {
-    color: #07ad27; /* a definir */
+    color: #d7871e; /* a definir */
 } 
 
 
 .btn-default{
     color:#FFF;
-    background-color: #07ad27;
+    background-color: #d7871e;
 }
 
 .btn-default:hover{
-    background-color: #0f8525;
+    background-color: #eca11f;
     color:#FFF;
 }
 
@@ -22,27 +22,27 @@ h5 {
 
 a {
     /* Bouton*/
-    color:#07ad27; /* a definir */
+    color:#d7871e; /* a definir */
     text-decoration: none; /* a definir */
 }
 
 a:hover {
-    color: #0f8525; /* a definir */
+    color: #eca11f; /* a definir */
 }
 
 
   
 .header {
-    background-color: #0f8525;
+    background-color: #eca11f;
 }
 
 .header ul {
-background-color: #0f8525;
+background-color: #eca11f;
 
 }
   
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #07ad27;
+  background-color: #d7871e;
   color: #FFF;
 }

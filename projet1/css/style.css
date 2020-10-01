@@ -131,7 +131,7 @@ a:hover {
 
 /* Bouton*/
 .btn {
-    display: inline-block;
+    display: inline-block !important;
     font-weight: 400;
     text-align: center;
     white-space: nowrap;
@@ -208,6 +208,27 @@ a:hover {
 
 
 
+/***********************************************************
+ -  Align Blocks
+***********************************************************/
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
 
 /***********************************************************
  -  Blocks
@@ -238,11 +259,19 @@ footer {
     background-color: #d7d7d7;
 }
  */
+.mg-0-5{
+    margin:0px 5px;
+}
 
 
- .article-filtre-text{
-     font-size : 22px;
- }
+
+
+.article-filtre-text{
+    font-size : 32px;
+    margin-right: 10px;
+    color:#b4b4b4;
+}
+
 .article-bloc{
     background-color: #f2f2f2;
     padding:30px;
@@ -252,7 +281,6 @@ footer {
     margin-bottom: 25px;
 
 }
-
 
 .article-bloc > div {
     padding:25px;
@@ -266,9 +294,14 @@ footer {
 
 
 .article-bloc > div:first-child > img {
-    max-width: 100%;
     border-radius: 20px 0px 20px 0px;
+    object-fit: cover;
+    height: 160px;
+    width: 300px;
 }
+
+
+
 
 .article-bloc > div:last-child {
     flex: 1 70%;
@@ -276,8 +309,9 @@ footer {
 }
 
 
-
-
+/***********************************************************
+ -  Pages : details
+***********************************************************/
 
 
 
@@ -286,7 +320,7 @@ footer {
 
 
 /***********************************************************
- -  Country color
+ -  Global Country color
 ***********************************************************/
 
 
@@ -328,7 +362,7 @@ footer {
 }
 
 .tags-asia:hover{
-    background-color: #eca11f;
+    background-color: #c08216;
     color:#FFF;
 }
 
