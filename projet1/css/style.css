@@ -279,6 +279,7 @@ footer {
     display: flex;
     border-radius: 20px 0px 20px 0px;
     margin-bottom: 25px;
+ 
 
 }
 
@@ -407,3 +408,101 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/***********************************************************
+ -  Media Query (bootstrap size)
+***********************************************************/
+
+/* Small devices (landscape phones, 576px and up) */
+@media(max-width:767px){
+
+/***********************************************************
+ -  Titres
+***********************************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Cabin Sketch', cursive;
+    color: 000000; /* a definir */
+    padding:0px; /* a definir */
+    margin:0px; /* a definir */
+} 
+
+h1 {
+    font-size: 54px; /* a definir */
+}
+
+h2 {
+    font-size: 36px; /* a definir */
+}
+
+h3 {
+    font-size: 32px; /* a definir */
+}
+
+h4 {
+    font-size: 22px; /* a definir */
+}
+
+h5 {
+    font-size: 18px; /* a definir */
+}
+
+p {
+    font-size: 16px; /* a definir */
+    line-height: 24px;
+}
+
+
+.article-bloc{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px 0px 20px 0px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.article-bloc > div:first-child > img {
+    border-radius: 20px 0px 20px 0px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.main {
+    padding: 5px;
+}
+
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media(min-width:768px){
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media(min-width:992px){
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media(min-width:1200px){
+
+}
