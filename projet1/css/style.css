@@ -47,11 +47,11 @@ h1 {
 }
 
 h2 {
-    font-size: 28px; /* a definir */
+    font-size: 42px; /* a definir */
 }
 
 h3 {
-    font-size: 26px; /* a definir */
+    font-size: 36px; /* a definir */
 }
 
 h4 {
@@ -146,6 +146,7 @@ a:hover {
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 12px 0px 12px 0px;
 }
 
 .btn-default{
@@ -157,6 +158,55 @@ a:hover {
     background-color: #828282;
     color:#FFF;
 }
+
+
+
+/* Tags*/
+.tags {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 4px 6px;
+    font-size: 11px;
+    margin-left:8px;
+}
+
+.tags-big {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    font-size: 22px;
+}
+
+
+.tags-default{
+    color:#FFF;
+    background-color: #333333;
+}
+
+.tags-default:hover{
+    background-color: #828282;
+    color:#FFF;
+}
+
+
 
 
 /***********************************************************
@@ -176,6 +226,150 @@ footer {
     padding:80px;
 }
 
+
+
+
+/***********************************************************
+ -  Pages : articles
+***********************************************************/
+
+/* 
+.article-filter{
+    background-color: #d7d7d7;
+}
+ */
+
+
+ .article-filtre-text{
+     font-size : 22px;
+ }
+.article-bloc{
+    background-color: #f2f2f2;
+    padding:30px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px 0px 20px 0px;
+    margin-bottom: 25px;
+
+}
+
+
+.article-bloc > div {
+    padding:25px;
+  }
+
+
+.article-bloc > div:first-child {
+    flex: 1 30%;
+    display:inline-block;
+}
+
+
+.article-bloc > div:first-child > img {
+    max-width: 100%;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.article-bloc > div:last-child {
+    flex: 1 70%;
+    display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************************
+ -  Country color
+***********************************************************/
+
+
+
+
+/* America */
+
+.article-bloc-america{
+    border-bottom: #1e78a7 solid 5px;
+    border-bottom: #1e78a7 solid 5px;
+    /*box-shadow: 5px 2px 8px #166f6f;*/
+}
+
+
+.tags-america{
+    color:#FFF;
+    background-color: #1e78a7;
+}
+
+.tags-america:hover{
+    background-color: #155373;
+    color:#FFF;
+}
+
+
+
+
+/* Asia */
+
+.article-bloc-asia{
+    border-bottom: #eca11f solid 5px;
+   /* box-shadow: 5px 2px 8px #eca11f;*/
+}
+
+
+.tags-asia{
+    color:#FFF;
+    background-color: #eca11f;
+}
+
+.tags-asia:hover{
+    background-color: #eca11f;
+    color:#FFF;
+}
+
+
+
+
+
+/* oceania */
+.article-bloc-oceania{
+    border-bottom: #883a85 solid 5px;
+   /* box-shadow: 5px 2px 8px #eca11f;*/
+}
+
+.tags-oceania{
+    color:#FFF;
+    background-color: #883a85;
+}
+
+.tags-oceania:hover{
+    background-color: #61295f;
+    color:#FFF;
+}
+
+
+/* africa */
+
+.article-bloc-africa{
+    border-bottom: #437315 solid 5px;
+   /* box-shadow: 5px 2px 8px #eca11f;*/
+}
+
+
+.tags-africa{
+    color:#FFF;
+    background-color: #437315;
+}
+
+.tags-africa:hover{
+    background-color: #3a5a1a;
+    color:#FFF;
+}
 
 
 

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/fullwidth.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+    <title>Acceuil</title>
+</head>
+<body>
+    
+
+<header class="header">
+<div class="container">
+        <a href="" ></a><img src="images/logo_w_small.png" class="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="#">Pays</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+</div>
+</header>
+
+<div class="fixmenu"></div>
+
+<div class="slider"></div>
+
+
+<div class="container main">
+
+  <ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+<h1>Choisir un pays</h1>
+
+<div align="right">
+  <span class="article-filtre-text">Filtre : </span>
+    <a href="javascript:void(0);" class="tags-big tags-asia" onclick=filterCountries("asia")>
+      Asia
+    </a>
+    <a href="javascript:void(0);" class="tags-big tags-america"  onclick=filterCountries("amerique")>
+      Amerique
+    </a>
+    <a href="javascript:void(0);" class="tags-big tags-america"  onclick=filterCountries("oceanie")>
+      Oceanie
+    </a>
+
+    <a href="javascript:void(0);" class="tags-big tags-america"  onclick=filterCountries("afrique")>
+      Afrique
+    </a>
+</div>
+<br>
+
+
+
+<div class="article-bloc article-bloc-asia" data-filter-block="asia">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Thailand <span class="tags tags-asia">asie</span>  </h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+
+
+<div class="article-bloc  article-bloc-america" data-filter-block="amerique">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Amerique <span class="tags tags-america">America</span></h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+
+
+<div class="article-bloc  article-bloc-america" data-filter-block="amerique">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Pérou <span class="tags tags-america">America</span></h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+
+
+
+<div class="article-bloc  article-bloc-america" data-filter-block="oceanie">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Fidji <span class="tags tags-america">Oceanie</span></h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+
+
+
+<div class="article-bloc  article-bloc-america" data-filter-block="oceanie">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Australie <span class="tags tags-america">Oceanie</span></h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="article-bloc  article-bloc-america" data-filter-block="afrique">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Keynya <span class="tags tags-america">Afrique</span></h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+
+
+
+
+<div class="article-bloc  article-bloc-america" data-filter-block="afrique">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Maroc <span class="tags tags-america">Afrique</span></h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+
+
+
+<div class="article-bloc  article-bloc-america" data-filter-block="afrique">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Sénégal <span class="tags tags-america">Afrique</span></h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+
+<div class="article-bloc  article-bloc-asia" data-filter-block="asia">
+  <div>
+    <img src="images/thailand-1400x788-1.jpg" alt="">
+  </div>
+  <div>
+    <h2>Chine <span class="tags tags-asia">asia</span></h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?
+    </p>
+     <a class="btn btn-default">En voir plus</a>
+  </div>
+</div>
+
+<script>
+
+function filterCountries(country){
+
+    const all_countries = document.querySelectorAll('[data-filter-block]');
+    for (let i = 0; i < all_countries.length; i++) {
+      console.log(all_countries[i].dataset.filterBlock);
+        if(all_countries[i].dataset.filterBlock === country){
+          all_countries[i].style.display = "flex";
+        }else{
+          all_countries[i].style.display = "none";
+        }
+    }
+}
+
+
+</script>
+
+
+</div>
+
+
+</body>
+</html>
+

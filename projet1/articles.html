@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/fullwidth.css">
+  <link rel="stylesheet" href="css/grid.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+  <title>Acceuil</title>
+</head>
+
+<body>
+
+
+
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html"></a><img src="images/logo_w_small.png" class="logo"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="articles.html">Pays</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+
+  <div class="fixmenu"></div>
+
+  <div class="slider"></div>
+
+
+  <div class="container main">
+
+    <ul class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Pays</a></li>
+      <li><a href="#">Thailand</a></li>
+    </ul>
+
+    <h1>Choisir un pays</h1>
+
+    <div align="right">
+      <span class="article-filtre-text">Filtre : </span>
+      <a href="javascript:void(0);" class="tags-big tags-asia" onclick=filterCountries("asia")>
+        Asia
+      </a>
+      <a href="javascript:void(0);" class="tags-big tags-america" onclick=filterCountries("america")>
+        Amerique
+      </a>
+      <a href="javascript:void(0);" class="tags-big tags-oceania" onclick=filterCountries("oceania")>
+        Oceanie
+      </a>
+      <a href="javascript:void(0);" class="tags-big tags-africa" onclick=filterCountries("africa")>
+        Afrique
+      </a>
+    </div>
+    <br>
+
+    <div class="article-section"></div>
+
+
+
+
+
+  </div>
+
+  <script src="js/countries.functions.js"></script>
+  <script src="js/database/countries.js"></script>
+  <script>
+    countriesDatabase.forEach(function (item) {
+      template_coutrny_card(item);
+    });
+  </script>
+</body>
+
+</html>
