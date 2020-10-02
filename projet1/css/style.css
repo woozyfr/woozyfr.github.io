@@ -149,6 +149,12 @@ a:hover {
     border-radius: 12px 0px 12px 0px;
 }
 
+
+.btn-reservation{
+    margin:20px;
+}
+
+
 .btn-default{
     color:#FFF;
     background-color: #333333;
@@ -254,6 +260,9 @@ footer {
  -  Pages : articles
 ***********************************************************/
 
+
+
+
 /* 
 .article-filter{
     background-color: #d7d7d7;
@@ -262,8 +271,6 @@ footer {
 .mg-0-5{
     margin:0px 5px;
 }
-
-
 
 
 .article-filtre-text{
@@ -279,13 +286,11 @@ footer {
     display: flex;
     border-radius: 20px 0px 20px 0px;
     margin-bottom: 25px;
- 
-
 }
 
 .article-bloc > div {
     padding:25px;
-  }
+}
 
 
 .article-bloc > div:first-child {
@@ -300,8 +305,6 @@ footer {
     height: 160px;
     width: 300px;
 }
-
-
 
 
 .article-bloc > div:last-child {
@@ -325,12 +328,10 @@ footer {
 ***********************************************************/
 
 
-
-
 /* America */
 
 .article-bloc-america{
-    border-bottom: #1e78a7 solid 5px;
+    border-bottom: #d7e1e6 solid 5px;
     border-bottom: #1e78a7 solid 5px;
     /*box-shadow: 5px 2px 8px #166f6f;*/
 }
@@ -435,6 +436,15 @@ textarea{
 
 
 
+/***********************************************************
+ -  Footer
+***********************************************************/
+
+footer{
+    background-color:#333333;
+    min-height: 200px;
+    padding-top:30px;
+}
 
 /***********************************************************
  -  Media Query (bootstrap size)
@@ -443,67 +453,73 @@ textarea{
 /* Small devices (landscape phones, 576px and up) */
 @media(max-width:767px){
 
-/***********************************************************
- -  Titres
-***********************************************************/
+        /***********************************************************
+        -  Titres
+        ***********************************************************/
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Cabin Sketch', cursive;
-    color: 000000; /* a definir */
-    padding:0px; /* a definir */
-    margin:0px; /* a definir */
-} 
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Cabin Sketch', cursive;
+            color: 000000; /* a definir */
+            padding:0px; /* a definir */
+            margin:0px; /* a definir */
+        } 
 
-h1 {
-    font-size: 54px; /* a definir */
-}
+        h1 {
+            font-size: 54px; /* a definir */
+        }
 
-h2 {
-    font-size: 36px; /* a definir */
-}
+        h2 {
+            font-size: 36px; /* a definir */
+        }
 
-h3 {
-    font-size: 32px; /* a definir */
-}
+        h3 {
+            font-size: 32px; /* a definir */
+        }
 
-h4 {
-    font-size: 22px; /* a definir */
-}
+        h4 {
+            font-size: 22px; /* a definir */
+        }
 
-h5 {
-    font-size: 18px; /* a definir */
-}
+        h5 {
+            font-size: 18px; /* a definir */
+        }
 
-p {
-    font-size: 16px; /* a definir */
-    line-height: 24px;
-}
+        p {
+            font-size: 16px; /* a definir */
+            line-height: 24px;
+        }
 
 
-.article-bloc{
-    background-color: #f2f2f2;
-    overflow: hidden;
-    display: flex;
-    border-radius: 20px 0px 20px 0px;
-    margin-bottom: 25px;
-    flex-wrap: wrap;
-    padding: 5px;
-}
+        .article-bloc{
+            background-color: #f2f2f2;
+            overflow: hidden;
+            display: flex;
+            border-radius: 20px 0px 20px 0px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            padding: 5px;
+        }
 
-.article-bloc > div:first-child > img {
-    border-radius: 20px 0px 20px 0px;
-    object-fit: cover;
-    height: 200px;
-    width: 100%;
-}
+        .article-bloc > div:first-child > img {
+            border-radius: 20px 0px 20px 0px;
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
+        }
 
-.main {
-    padding: 5px;
-}
+        .main {
+            padding: 5px;
+        }
+
+
+        .row {
+            flex-direction: column !important;
+        }
+
 
 
 }
