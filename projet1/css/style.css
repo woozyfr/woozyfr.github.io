@@ -27,6 +27,12 @@ body {
 }
 
 
+/* A definir*/
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
 /***********************************************************
  -  Titres
 ***********************************************************/
@@ -65,6 +71,8 @@ h5 {
 p {
     font-size: 16px; /* a definir */
     line-height: 24px;
+    margin: 0px 0px 15px 0px;
+
 }
 
 /***********************************************************
@@ -79,7 +87,7 @@ p {
 ***********************************************************/
 
 /* Style the list */
-ul.breadcrumb {
+  ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
   }
@@ -164,7 +172,6 @@ a:hover {
     background-color: #828282;
     color:#FFF;
 }
-
 
 
 /* Tags*/
@@ -312,7 +319,10 @@ footer {
     display:inline-block;
 }
 
-
+.article-filtre-justify{
+    display: flex;
+    justify-content: flex-end;
+}
 /***********************************************************
  -  Pages : details
 ***********************************************************/
@@ -435,6 +445,10 @@ textarea{
 
 
 
+/* .hidden-mobile{
+} */
+
+
 
 /***********************************************************
  -  Footer
@@ -470,6 +484,8 @@ footer{
 
         h1 {
             font-size: 54px; /* a definir */
+            display: flex;
+            justify-content: center;
         }
 
         h2 {
@@ -521,6 +537,21 @@ footer{
         }
 
 
+        .tags-big {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+
+        .hidden-mobile{
+            display:none;
+        }
+
+        .article-filtre-justify{
+            margin-top:25px;
+            display: flex;
+            justify-content: center;
+        }
 
 }
 

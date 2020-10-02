@@ -9,7 +9,58 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position:relative;
 }
 
 
+.slider-container{
+    position:relative;
+    max-width: 1140px;
+    margin: auto;
+}
 
+.miniplan{
+    position:absolute;
+    width:100px;
+    height:100px;
+    right:150px;
+    top:35px;
+    padding:42px;
+    color:white;
+    font-size:14px;
+    line-height: 18px;
+    z-index: 10;
+}
+
+.miniplan > img{
+    max-width: 100%;
+}
+
+.encard{
+    position:absolute;
+    /*background-color: rgba(236, 161, 31, 0.8);*/
+    background-color: rgba(0, 0, 0, 0.6);
+    width:320px;
+    height:200px;
+    right:150px;
+    top:120px;
+    padding:42px;
+    color:white;
+    font-size:14px;
+    line-height: 18px;
+}
+
+
+.encard-title{
+    font-family: 'Poppins', sans-serif;
+    font-size:42px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+
+.encard-subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size:22px;
+    margin-bottom: 12px;
+}
