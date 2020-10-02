@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/grid.css">
 
 
+
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
@@ -21,20 +23,19 @@
 
 <body>
 
-
 <!-- header -->
-  <header class="header">
-    <div class="container">
-      <a href="index.html"></a><img src="images/logo_w_small.png" class="logo"></a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="articles.html">Pays</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </header>
+<header class="header">
+  <div class="container">
+    <a href="index.html"><img src="images/logo_w_small.png" class="logo"></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="articles.html">Pays</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
   <div class="fixmenu"></div>
 <!-- header:end -->
   
@@ -51,6 +52,43 @@
     <!-- breadcrumb:end -->
 
     <h1>Bienvenue</h1>
+
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet-src.min.js" integrity="sha512-XQr+/1RXvYozXiwrumwtu3lqQmVwZ8nkLUrC/mc3HBHw4Imh++RXjwtLQFuOz3i65j9CSfKt50x6w/uUY2ovOQ==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" />
+<style>
+#mapid { 
+    display: block;
+    height: 450px;
+     border:1px;
+}
+</style>
+
+
+<div id="mapid"></div>
+<script src="js/database/countries.js"></script>
+<script>
+    let mymap = L.map('mapid').setView([13.7542529, 100.493087], 13);
+    let mapSource = "http://{s}.tile.osm.org/{z}/{x}/{y}.png";
+    // let mapSource = "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png";
+
+  L.tileLayer(mapSource, {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 2,
+      tileSize: 512,
+      zoomOffset: -1,
+  }).addTo(mymap)
+
+  countriesDatabase.forEach(function (item) {
+    L.marker([item.latitude,item.longitude]).addTo(mymap).on('click', function(e) {
+      window.location = item.slug+".html";
+    });
+  });
+
+
+</script>
 
     <b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem totam magnam, cumque doloribus impedit soluta quam distinctio veritatis fugit nihil accusamus perspiciatis officia, in obcaecati laboriosam laudantium magni velit consequuntur.
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem totam magnam, cumque doloribus impedit soluta quam distinctio veritatis fugit nihil accusamus perspiciatis officia, in obcaecati laboriosam laudantium magni velit consequuntur.
