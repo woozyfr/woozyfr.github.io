@@ -9,7 +9,7 @@ function template_news(obj) {
     card.classList.add("news-bloc");
     card.classList.add("buzz-out-on-hover");
     card.classList.add("news-bloc-"+obj.category_key);
-    card.onclick = function() { window.location = "http://www.mozilla.org"; };
+    card.onclick = function() { window.location = "https://www.google.com/search?q="+obj.title; };
     newsCards.appendChild(card);
 
     // Gestion du contenu :title
@@ -22,17 +22,7 @@ function template_news(obj) {
     const cardContentText = document.createElement("p");
     cardContentText.textContent = obj.text;
     card.appendChild(cardContentText);
- 
-    // const cardContentButtonContainer = document.createElement("div");
-    // cardContentButtonContainer.classList.add("center");
-    // card.appendChild(cardContentButtonContainer);
-   
-    // const cardContentButton = document.createElement("a");
-    // cardContentButton.textContent = "En voir plus";
-    // cardContentButton.href = obj.url;
-    // cardContentButton.classList.add("btn");
-    // cardContentButton.classList.add("btn-news");
-    // cardContentButtonContainer.appendChild(cardContentButton);
+
 
 }
 
