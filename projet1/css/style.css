@@ -423,7 +423,6 @@ footer{
 
 
 
-
 .news-bloc-title{
     font-size: 20px;
     font-weight: bold;
@@ -679,6 +678,18 @@ textarea{
             width: 100%;
         }
 
+
+
+        .index-bloc{
+            display:inline;
+        }
+                
+        .index-bloc > div:first-child {
+            padding-right: 0;
+        }
+        
+
+        
         .main {
             padding: 5px;
         }
