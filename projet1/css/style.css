@@ -300,17 +300,17 @@ footer {
 }
 
 
-.article-bloc > div:first-child {
-    flex: 1 30%;
-    display:inline-block;
-}
-
 
 .article-bloc > div:first-child > img {
     border-radius: 20px 0px 20px 0px;
     object-fit: cover;
     height: 160px;
     width: 300px;
+}
+
+.article-bloc > div:first-child {
+    flex: 1 30%;
+    display:inline-block;
 }
 
 
@@ -327,10 +327,50 @@ footer {
  -  Pages : details
 ***********************************************************/
 
+/***********************************************************
+ -  Pages : Index
+***********************************************************/
+
+
+.index-bloc > div:last-child {
+    flex: 1 30%;
+    display:inline-block;
+}
+
+.index-bloc > div:first-child {
+    flex: 1 70%;
+    display:inline-block;
+}
+
+.index-bloc > div:first-child > img {
+    border-radius: 20px 0px 20px 0px;
+    object-fit: cover;
+    height: 160px;
+    width: 300px;
+}
+
+.index-bloc{
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.index-bloc > div {
+
+}
+
+
+.news-bloc{
+    margin:10px;
+}
 
 
 
-
+.news-bloc-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:8px;
+}
 
 
 /***********************************************************

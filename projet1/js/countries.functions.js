@@ -59,8 +59,26 @@ function template_coutrny_card(obj) {
 
     const cardContentButton = document.createElement("a");
     cardContentButton.textContent = "En voir plus";
-    cardContentButton.href = obj.slug+".html";
+    cardContentButton.href = obj.url;
     cardContentButton.classList.add("btn");
     cardContentButton.classList.add("btn-default");
     cardContentButtonContainer.appendChild(cardContentButton);
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
