@@ -1,14 +1,7 @@
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
-  }
-  
 
   .fixmenu{
     height:58px;
   }
-
 
 
   .logo{
@@ -25,7 +18,7 @@ body {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 20;
   }
   
   .header ul {
