@@ -294,7 +294,7 @@
         }
     },
      //****************************************
-    // Australia
+    // senegal
     //****************************************
     'senegal': {  // route
         'visibile':true,
@@ -330,8 +330,8 @@
                         "key": "africa"
                     },
         "gps": {
-            "latitude": -1.267,
-            "longitude": 36.8
+            "latitude": 14.72472,
+            "longitude": -17.47333
         }
     },
 };
