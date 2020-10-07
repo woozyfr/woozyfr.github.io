@@ -20,16 +20,45 @@ $$  /   \$$ |$$ |$$ |\$$$$$$$ |         $$ |$$ |      $$ |$$$$$$$  |
 /* font-family: 'Cabin Sketch', cursive; */
 
 
+
+:root {
+    --body-bg: #f2f2f2;
+    --body-color: #333333;
+    --container : 1140px;
+
+    /* continent color */
+
+    --color-america-first :  #1e78a7;
+    --color-america-second :  #155373;
+    
+    --color-europa-first :  #de3c3c;
+    --color-europa-second :  #b33535;
+
+
+    --color-asia-first :  #eca11f;
+    --color-asia-second :  #c08216;
+
+
+    --color-oceania-first :  #883a85;
+    --color-oceania-second :  #61295f;
+
+
+    --color-africa-first :  #437315;
+    --color-africa-second :  #3a5a1a;
+
+  }
+  
+
 body {
     font-family: 'Poppins', sans-serif;
-    color:#333333; /* a definir */
-    background-color:#f2f2f2;
+    color:var(--body-color);
+    background-color : var(--body-bg);
 }
 
 
 /* A definir*/
 .container {
-    max-width: 1140px;
+    max-width: var(--container);
     margin: auto;
 }
 
@@ -480,24 +509,24 @@ footer{
 /* America */
 
 .article-bloc-america{
-    border-bottom: #1e78a7 solid 5px;
+    border-bottom: var(--color-america-first) solid 5px;
     /*box-shadow: 5px 2px 8px #166f6f;*/
 }
 
 
 .tags-america{
     color:#FFF;
-    background-color: #1e78a7;
+    background-color: var(--color-america-first);
 }
 
 .tags-america:hover{
-    background-color: #155373;
+    background-color: var(--color-america-second);
     color:#FFF;
 }
 
 
 .news-bloc-america{
-    background-color: #1e78a7;
+    background-color: var(--color-america-first);
 }
 
 
@@ -505,99 +534,123 @@ footer{
 /* Europa */
 
 .article-bloc-europa{
-    border-bottom: #de3c3c solid 5px;
+    border-bottom: var(--color-europa-first) solid 5px;
     /*box-shadow: 5px 2px 8px #166f6f;*/
 }
 
 
 .tags-europa{
     color:#FFF;
-    background-color: #de3c3c;
+    background-color: var(--color-europa-first);
 }
 
 .tags-europa:hover{
-    background-color: #b33535;
+    background-color: var(--color-europa-second);
     color:#FFF;
 }
 
 
 .news-bloc-europa{
-    background-color: #de3c3c;
+    background-color: var(--color-europa-first);
 }
-
-
-
 
 
 
 /* Asia */
 
+
+
 .article-bloc-asia{
-    border-bottom: #eca11f solid 5px;
-   /* box-shadow: 5px 2px 8px #eca11f;*/
+    border-bottom: var(--color-asia-first) solid 5px;
+    /*box-shadow: 5px 2px 8px #166f6f;*/
 }
 
 
 .tags-asia{
     color:#FFF;
-    background-color: #eca11f;
+    background-color: var(--color-asia-first);
 }
 
 .tags-asia:hover{
-    background-color: #c08216;
+    background-color: var(--color-asia-second);
     color:#FFF;
 }
 
 
 .news-bloc-asia{
-    background-color: #eca11f;
+    background-color: var(--color-asia-first);
 }
 
 
 /* oceania */
+
+
 .article-bloc-oceania{
-    border-bottom: #883a85 solid 5px;
-   /* box-shadow: 5px 2px 8px #eca11f;*/
+    border-bottom: var(--color-oceania-first) solid 5px;
+    /*box-shadow: 5px 2px 8px #166f6f;*/
 }
+
 
 .tags-oceania{
     color:#FFF;
-    background-color: #883a85;
+    background-color: var(--color-oceania-first);
 }
 
 .tags-oceania:hover{
-    background-color: #61295f;
+    background-color: var(--color-oceania-second);
     color:#FFF;
 }
 
+
 .news-bloc-oceania{
-    background-color: #1e78a7;
+    background-color: var(--color-oceania-first);
 }
+
+
 
 
 /* africa */
 
 .article-bloc-africa{
-    border-bottom: #437315 solid 5px;
-   /* box-shadow: 5px 2px 8px #eca11f;*/
+    border-bottom: var(--color-africa-first) solid 5px;
+    /*box-shadow: 5px 2px 8px #166f6f;*/
 }
 
 
 .tags-africa{
     color:#FFF;
-    background-color: #437315;
+    background-color: var(--color-africa-first);
 }
 
 .tags-africa:hover{
-    background-color: #3a5a1a;
+    background-color: var(--color-africa-second);
     color:#FFF;
 }
 
 
 .news-bloc-africa{
-    background-color: #437315;
+    background-color: var(--color-africa-first);
 }
 
+
+
+
+/* Filters tags */
+
+.tags-inactive{
+    color:#FFF;
+    background-color: #a5a5a5;
+}
+
+.tags-inactive:hover{
+    background-color: #818181;
+    color:#FFF;
+}
+
+.tags-filter-focused{
+    transform: rotate(-3deg);
+    font-size: 30px;
+}
 
 
 /***********************************************************
@@ -754,21 +807,6 @@ textarea{
 @media(min-width:1200px){
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

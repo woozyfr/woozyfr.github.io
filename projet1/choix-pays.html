@@ -36,8 +36,12 @@
   <!-- Favicon:end -->
 
 <!-- Javascript Defered -->
-  <script src="js/database/countries.js" defer></script>
+  <!-- <script src="js/database/countries.js" defer></script>
+  <script src="js/countries.functions.js" defer></script> -->
+
+  <script src="js/database/countriesv2.js" defer></script>
   <script src="js/countries.functions.js" defer></script>
+
 <!-- Javascript Defered :end -->
 
 <!-- Disable cache  -->
@@ -104,19 +108,19 @@
     <div class="article-filtre-justify">
       <span class="article-filtre-text hidden-mobile">Filtre : </span>
       
-      <a href="javascript:void(0);" class="tags-big tags-asia mg-0-5" onclick=filterCountries("asia")>
+      <a href="javascript:void(0);" class="tags-big tags-asia mg-0-5" data-filter-name ="asia" onclick=filterCountries("asia")>
         Asia
       </a>
-      <a href="javascript:void(0);" class="tags-big tags-america mg-0-5" onclick=filterCountries("america")>
+      <a href="javascript:void(0);" class="tags-big tags-america mg-0-5" data-filter-name ="america" onclick=filterCountries("america")>
         Amerique
       </a>
-      <a href="javascript:void(0);" class="tags-big tags-oceania mg-0-5" onclick=filterCountries("oceania")>
+      <a href="javascript:void(0);" class="tags-big tags-oceania mg-0-5" data-filter-name ="oceania" onclick=filterCountries("oceania")>
         Oceanie
       </a>
-      <a href="javascript:void(0);" class="tags-big tags-europa mg-0-5" onclick=filterCountries("europa")>
+      <a href="javascript:void(0);" class="tags-big tags-europa mg-0-5" data-filter-name ="europa" onclick=filterCountries("europa")>
         Europe
       </a>
-      <a href="javascript:void(0);" class="tags-big tags-africa mg-0-5" onclick=filterCountries("africa")>
+      <a href="javascript:void(0);" class="tags-big tags-africa mg-0-5" data-filter-name ="africa" onclick=filterCountries("africa")>
         Afrique
       </a>
 

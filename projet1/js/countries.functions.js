@@ -22,6 +22,39 @@ function filterCountries(country) {
             }
         }
     }
+
+
+
+
+
+
+    
+
+    const all_filters = document.querySelectorAll('[data-filter-name]');
+    console.log(all_filters);
+        if(filter_active === "all"){
+            for (let i = 0; i < all_filters.length; i++) {
+                all_filters[i].classList.remove("tags-inactive");
+                all_filters[i].classList.remove("tags-filter-focused");
+            }
+        }else{
+
+            console.log("for not all!!");
+            for (let i = 0; i < all_filters.length; i++) {
+                all_filters[i].classList.add("tags-inactive");
+                all_filters[i].classList.remove("tags-filter-focused");
+                if (all_filters[i].dataset.filterName === filter_active) {
+                    all_filters[i].classList.remove("tags-inactive");
+                    all_filters[i].classList.add("tags-filter-focused");
+                }
+            }
+        }
+    
+    
+
+        
+
+
 }
 
 
@@ -35,9 +68,9 @@ function template_country_card(obj) {
 
     const card = document.createElement("div");
     card.classList.add("article-bloc");
-    card.classList.add("article-bloc-"+obj.category_key);
-    card.classList.add("article-bloc-"+obj.category_key);
-    card.dataset.filterBlock = obj.category_key;
+    card.classList.add("article-bloc-"+obj.category.key);
+    card.classList.add("article-bloc-"+obj.category.key);
+    card.dataset.filterBlock = obj.category.key;
 
     countriesCards.appendChild(card);
 
@@ -59,8 +92,8 @@ function template_country_card(obj) {
 
     const cardContentTitleTags = document.createElement("span");
     cardContentTitleTags.classList.add("tags");
-    cardContentTitleTags.classList.add("tags-"+obj.category_key);
-    cardContentTitleTags.textContent = obj.category_name;
+    cardContentTitleTags.classList.add("tags-"+obj.category.key);
+    cardContentTitleTags.textContent = obj.category.name;
     cardContentTitle.appendChild(cardContentTitleTags);
 
     const cardContentText = document.createElement("p");
@@ -81,16 +114,23 @@ function template_country_card(obj) {
 }
 
 
-
-
-
-
-
 // Init
 const countriesCards = document.querySelector(".article-section");
-countriesDatabase.forEach(function (item) {
-    template_country_card(item);
-  });
+
+for (var i in countriesV2) {
+    template_country_card(countriesV2[i]);
+  }
+
+
+// countriesV2.keys(a).forEach(function (key){
+//     console.log(a[key]);
+// });
+
+
+// countriesV2.forEach(function (item) {
+//     console.log(item);
+//     //template_country_card(item);
+// });
 
 
 

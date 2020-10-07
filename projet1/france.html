@@ -170,6 +170,13 @@
   sliderElement.style.background = "url('images/countries/france/paris-2017-home.jpg')";
   sliderElement.style.backgroundPosition = "center 95%";
   sliderElement.style.backgroundSize = "cover";
+
+
+    const queryString = window.location.search;
+    console.log(queryString);
+    const urlParams = new URLSearchParams(queryString);
+    const country = urlParams.get('p')
+    console.log(country);
   </script>
 </body>
 

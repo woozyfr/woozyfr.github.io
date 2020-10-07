@@ -1,13 +1,5 @@
 const countriesDatabase = [{
-    "name": "Thailand",
-    "category_name": "Asia",
-    "category_key": "asia",
-    "url": "thailand.html",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
-    "picture": "images/countries/thailand/thailand-1400x788-1.jpg",
-    "latitude": 13.7542529,
-    "longitude":  100.493087
-    },
+
     {
         "name": "Chine",
         "category_name": "Asia",
@@ -17,7 +9,6 @@ const countriesDatabase = [{
         "picture": "images/countries/china/sejour-linguistique-chine.jpg",
         "latitude": 39.903546,
         "longitude": 116.387578
- 
     },
     {
         "name": "Inde",
