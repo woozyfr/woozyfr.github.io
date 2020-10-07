@@ -49,6 +49,8 @@
 <meta http-equiv="Expires" content="0" />
 <!-- Disable cache :end  -->
 
+
+
   <title>France</title>
 </head>
 
@@ -74,9 +76,8 @@
 
 
 
-
   <div class="slider">
-    <div class="slider-container">
+    <div class="slider-container hidden-mobile">
       <div class="miniplan"><img src="images/miniplansolo.png" ></div>
         <div class="encard">
           <div class="encard-title">France</div>
@@ -161,6 +162,15 @@
 
 
 <a href="contact.html" class="hidden-mobile fixedbutton btn btn-default buzz-out-on-hover">Plus d'information ?</a>
+
+<script>
+  // Change slider
+  const sliderElement = document.querySelector(".slider");
+  console.log(document.querySelector(".slider"));
+  sliderElement.style.background = "url('images/countries/france/paris-2017-home.jpg')";
+  sliderElement.style.backgroundPosition = "center 95%";
+  sliderElement.style.backgroundSize = "cover";
+  </script>
 </body>
 
 </html>
