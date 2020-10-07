@@ -42,14 +42,14 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Poppins', sans-serif;
     color: 000000; /* a definir */
     padding:0px; /* a definir */
-    margin:0px; /* a definir */
+    margin:8px 0px 8px 0px; /* a definir */
 } 
 
 h1 {
-    font-size: 72px; /* a definir */
+    font-size: 64px; /* a definir */
 }
 
 h2 {
@@ -184,6 +184,16 @@ a:hover {
     color:#FFF;
 }
 
+
+.btn-blue{
+    color:#FFF;
+    background-color: #1e78a7;
+}
+
+.btn-blue:hover{
+    background-color: #1c5e80;
+    color:#FFF;
+}
 
 /* Tags*/
 .tags {
