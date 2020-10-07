@@ -31,16 +31,6 @@ a:hover {
 
   
 .header {
-    background-color: #b33535;
-}
-
-.header ul {
-background-color: #b33535;
-
+    border-top:5px solid #de3c3c;
 }
   
-.header li a:hover,
-.header .menu-btn:hover {
-  background-color: #b33535;
-  color: #FFF;
-}

@@ -29,20 +29,3 @@ a {
 a:hover {
     color: #077cad; /* a definir */
 }
-
-
-  
-.header {
-    background-color: #077cad;
-}
-
-.header ul {
-background-color: #077cad;
-
-}
-  
-.header li a:hover,
-.header .menu-btn:hover {
-  background-color: #009ee0;
-  color: #FFF;
-}

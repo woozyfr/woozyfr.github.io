@@ -647,32 +647,32 @@ textarea{
         h3,
         h4,
         h5 {
-            font-family: 'Cabin Sketch', cursive;
+            font-family: 'Poppins', sans-serif;
             color: 000000; /* a definir */
             padding:0px; /* a definir */
             margin:0px; /* a definir */
         } 
 
         h1 {
-            font-size: 54px; /* a definir */
+            font-size: 48px; /* a definir */
             display: flex;
             justify-content: center;
         }
 
         h2 {
-            font-size: 36px; /* a definir */
+            font-size: 34px; /* a definir */
         }
 
         h3 {
-            font-size: 32px; /* a definir */
+            font-size: 28px; /* a definir */
         }
 
         h4 {
-            font-size: 22px; /* a definir */
+            font-size: 20px; /* a definir */
         }
 
         h5 {
-            font-size: 18px; /* a definir */
+            font-size: 16px; /* a definir */
         }
 
         p {
@@ -909,3 +909,21 @@ textarea{
     0% {opacity:0;}
     100% {opacity:1;}
   }
+
+.main{
+    position:relative;
+}
+
+  .lateral-title{
+    width:2000px;
+    text-align: right;
+    position: absolute;
+    font-size:160px;
+    color:#dedede;
+    transform: rotate(-90deg);
+    font-weight: bold;
+    top:950px;
+    right:340px;
+  }
+
+

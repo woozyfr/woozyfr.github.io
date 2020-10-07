@@ -22,7 +22,7 @@ h5 {
 
 a {
     /* Bouton*/
-    color:#d7871e; /* a definir */
+    color:#a7a39d; /* a definir */
     text-decoration: none; /* a definir */
 }
 
@@ -31,18 +31,6 @@ a:hover {
 }
 
 
-  
 .header {
-    background-color: #eca11f;
-}
-
-.header ul {
-background-color: #eca11f;
-
-}
-  
-.header li a:hover,
-.header .menu-btn:hover {
-  background-color: #d7871e;
-  color: #FFF;
+    border-top:5px solid #eca11f;
 }
