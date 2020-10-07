@@ -860,6 +860,8 @@ textarea{
       transform: translateX(-1px) rotate(0);
     }
   }
+
+
   .buzz-out-on-hover {
     display: inline-block;
     vertical-align: middle;
@@ -876,4 +878,34 @@ textarea{
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
+  }
+
+
+.fadeIn {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+}
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
   }
