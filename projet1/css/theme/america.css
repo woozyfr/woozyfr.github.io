@@ -29,3 +29,8 @@ a {
 a:hover {
     color: #077cad; /* a definir */
 }
+
+
+.header {
+    border-top:5px solid #009ee0;
+}
