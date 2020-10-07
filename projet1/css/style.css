@@ -915,15 +915,16 @@ textarea{
 }
 
   .lateral-title{
-    width:2000px;
+    width:1400px;
     text-align: right;
     position: absolute;
     font-size:160px;
     color:#dedede;
     transform: rotate(-90deg);
     font-weight: bold;
-    top:950px;
-    right:340px;
+    top:650px;
+    right:640px;
+    overflow: hidden;
   }
 
 
