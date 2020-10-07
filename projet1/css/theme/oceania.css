@@ -1,0 +1,41 @@
+:root {
+    --color-oceania-first :  #883a85;
+    --color-oceania-second :  #61295f;
+
+
+  }
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--color-oceania-first); /* a definir */
+} 
+
+
+.btn-default{
+    color:#FFF;
+    background-color: var(--color-oceania-first);
+}
+
+.btn-default:hover{
+    background-color: var(--color-oceania-second);
+    color:#FFF;
+}
+
+
+a {
+    /* Bouton*/
+    color:var(--color-oceania-first); /* a definir */
+    text-decoration: none; /* a definir */
+}
+
+a:hover {
+    color: var(--color-oceania-second); /* a definir */
+}
+
+  
+.header {
+    border-top:5px solid var(--color-oceania-first);
+}
+  

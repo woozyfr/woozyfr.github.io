@@ -169,6 +169,169 @@
         }
     },
 
+    //****************************************
+    // Pérou
+    //****************************************
+    'peru': {  // route
+        'visibile':true,
+        'name': 'Pérou',
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
+        "url": "country.html?p=peru",
+        'picture': 'images/countries/peru/image_processing20180916-4-ezfmel.jpg',
+        'slide': {
+            "filename":"images/countries/peru/image_processing20180916-4-ezfmel.jpg",
+            "backgroundPosition":"45%",
+            "punchline":"Le pays des Lama",
+            "text":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. At cupiditate distinctio laboriosam quam ipsa explicabo,tatestur adipisicing elit.",
+        },
+        "content":[
+                    {
+                        "title":"Matchou Pitchu",
+                        "filename":"https://www.peru.travel/Contenido/AcercaDePeru/Imagen/fr/42/0.0/Principal/Machu%20Picchu.jpg",
+                        "alt":"",
+                    },
+                    {
+                        "title":"Cloine arc en ciel",
+                        "filename":"https://www.etendues-sauvages.com/wp-content/uploads/2019/06/01perou_sstock_cuzco_007.jpg",
+                        "alt":"",
+                    },
+                    {
+                        "title":"Les cholas",
+                        "filename":"https://olympique.ca/wp-content/uploads/sites/2/2019/07/ecc81quipe-canada-perou-lima-2019.jpg?quality=100",
+                        "alt":"",
+                    },
+                    ],
+        "category": {
+                        "name": "Amérique",
+                        "key": "america"
+                    },
+        "gps": {
+            "latitude": -12.045299,
+            "longitude": -77.031137
+        }
+    },
 
-
+    //****************************************
+    // Argentine
+    //****************************************
+    'argentina': {  // route
+        'visibile':true,
+        'name': 'Argentine',
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
+        "url": "country.html?p=argentina",
+        'picture': 'images/countries/argentina/glacier-perito-moreno-parc-national-los-glaciares-patagonie-argentine-609021-1440x720.jpg',
+        'slide': {
+            "filename":"images/countries/argentina/glacier-perito-moreno-parc-national-los-glaciares-patagonie-argentine-609021-1440x720.jpg",
+            "backgroundPosition":"45%",
+            "punchline":"Viva argentina!!",
+            "text":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. At cupiditate distinctio laboriosam quam ipsa explicabo,tatestur adipisicing elit.",
+        },
+        "content":[
+                    {
+                        "title":"Viva Argentina!!!",
+                        "filename":"https://bitcoinist.com/wp-content/uploads/2018/05/shutterstock_446725087-Argentina-flag.jpg",
+                        "alt":"",
+                    },
+                    {
+                        "title":"Miles et une cascades",
+                        "filename":"https://www.fodors.com/wp-content/uploads/2019/05/00_HERO_Ultimate-Argentina_shutterstock_1109339036.jpg",
+                        "alt":"",
+                    },
+                    {
+                        "title":"Pyasages a coupé le soufle",
+                        "filename":"https://djq098wr042w0.cloudfront.net/media/argentina.jpg",
+                        "alt":"",
+                    },
+                    ],
+        "category": {
+                        "name": "Amérique",
+                        "key": "america"
+                    },
+        "gps": {
+            "latitude": -34.61,
+            "longitude": -58.35
+        }
+    },
+    //****************************************
+    // Australia
+    //****************************************
+    'australia': {  // route
+        'visibile':true,
+        'name': 'Australie',
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
+        "url": "country.html?p=australia",
+        'picture': 'images/countries/australia/expatriation-australie.jpg',
+        'slide': {
+            "filename":"https://i2.wp.com/supertrampontheroad.com/wp-content/uploads/2017/02/DSC_2920-1-copy.jpg",
+            "backgroundPosition":"45%",
+            "punchline":"Le pays des Kangourou",
+            "text":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. At cupiditate distinctio laboriosam quam ipsa explicabo,tatestur adipisicing elit.",
+        },
+        "content":[
+                    {
+                        "title":"Viva Argentina!!!",
+                        "filename":"images/countries/australia/expatriation-australie.jpg",
+                        "alt":"",
+                    },
+                    {
+                        "title":"Miles et une cascades",
+                        "filename":"https://i0.wp.com/supertrampontheroad.com/wp-content/uploads/2017/02/DSC_4437-1-2.jpg",
+                        "alt":"",
+                    },
+                    {
+                        "title":"Pyasages a coupé le soufle",
+                        "filename":"https://i2.wp.com/supertrampontheroad.com/wp-content/uploads/2017/02/DSC_2920-1-copy.jpg",
+                        "alt":"",
+                    },
+                    ],
+        "category": {
+                        "name": "Oceanie",
+                        "key": "oceania"
+                    },
+        "gps": {
+            "latitude": -34.61,
+            "longitude": -58.35
+        }
+    },
+     //****************************************
+    // Australia
+    //****************************************
+    'senegal': {  // route
+        'visibile':true,
+        'name': 'Sénégal',
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
+        "url": "country.html?p=senegal",
+        'picture': 'images/countries/senegal/pirogues-de-peche-senegal-479771-1440x720.jpg',
+        'slide': {
+            "filename":"images/countries/senegal/pirogues-de-peche-senegal-479771-1440x720.jpg",
+            "backgroundPosition":"45%",
+            "punchline":"Un beau pays",
+            "text":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. At cupiditate distinctio laboriosam quam ipsa explicabo,tatestur adipisicing elit.",
+        },
+        "content":[
+                    {
+                        "title":"Ca sort comme ça sort!",
+                        "filename":"images/countries/senegal/pirogues-de-peche-senegal-479771-1440x720.jpg",
+                        "alt":"",
+                    },
+                    {
+                        "title":"Entre mert et desert",
+                        "filename":"https://i.pinimg.com/originals/f1/22/f2/f122f2bb20b70e32840e69f17a85d826.jpg",
+                        "alt":"",
+                    },
+                    {
+                        "title":"Pyasages a coupé le soufle",
+                        "filename":"https://www.partir.com/images/pays/pays-photos-800/senegal-dakar-plage.jpg",
+                        "alt":"",
+                    },
+                    ],
+        "category": {
+                        "name": "Afrique",
+                        "key": "africa"
+                    },
+        "gps": {
+            "latitude": -1.267,
+            "longitude": 36.8
+        }
+    },
 };

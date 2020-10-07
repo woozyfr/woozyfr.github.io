@@ -1,0 +1,40 @@
+:root {
+    --color-africa-first :  #437315;
+    --color-africa-second :  #3a5a1a;
+
+  }
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--color-africa-first); /* a definir */
+} 
+
+
+.btn-default{
+    color:#FFF;
+    background-color: var(--color-africa-first);
+}
+
+.btn-default:hover{
+    background-color: var(--color-africa-second);
+    color:#FFF;
+}
+
+
+a {
+    /* Bouton*/
+    color:var(--color-africa-first); /* a definir */
+    text-decoration: none; /* a definir */
+}
+
+a:hover {
+    color: var(--color-africa-second); /* a definir */
+}
+
+  
+.header {
+    border-top:5px solid var(--color-africa-first);
+}
+  
