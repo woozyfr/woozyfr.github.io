@@ -47,7 +47,7 @@
     //****************************************
     'thailand': {  // route
         'visibile':true,
-        'name': 'Thailand',
+        'name': 'Thaïlande',
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure sunt cum ullam facilis quae. Totam, nulla, porro asperiores numquam atque unde maiores quidem earum, dicta cupiditate dolorum harum eius?",
         "url": "country.html?p=thailand",
         'picture': 'images/countries/thailand/thailand-1400x788-1.jpg',
@@ -315,12 +315,12 @@
                         "alt":"",
                     },
                     {
-                        "title":"Entre mert et desert",
+                        "title":"Entre mer et desert",
                         "filename":"https://i.pinimg.com/originals/f1/22/f2/f122f2bb20b70e32840e69f17a85d826.jpg",
                         "alt":"",
                     },
                     {
-                        "title":"Pyasages a coupé le soufle",
+                        "title":"Paysages a coupé le soufle",
                         "filename":"https://www.partir.com/images/pays/pays-photos-800/senegal-dakar-plage.jpg",
                         "alt":"",
                     },
