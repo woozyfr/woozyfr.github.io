@@ -1,6 +1,6 @@
 
   .fixmenu{
-    height:63px;
+    height:58px;
   }
 
 
@@ -14,7 +14,6 @@
   /* header */
   
   .header {
-    border-top:5px solid #333333;
     background-color: #333333;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;

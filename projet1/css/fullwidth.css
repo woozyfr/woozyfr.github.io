@@ -44,7 +44,7 @@
     /*background-color: rgba(236, 161, 31, 0.8);*/
     background-color: rgba(0, 0, 0, 0.6);
     width:320px;
-    min-height:120px;
+    height:200px;
     right:150px;
     top:120px;
     padding:42px;
@@ -80,9 +80,4 @@
     font-family: 'Poppins', sans-serif;
     font-size:22px;
     margin-bottom: 12px;
-}
-
-.encard > p {
-    font-size:14px;
-    line-height: 16px;
 }

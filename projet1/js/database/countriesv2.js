@@ -315,12 +315,12 @@
                         "alt":"",
                     },
                     {
-                        "title":"Entre mer et desert",
+                        "title":"Entre mert et desert",
                         "filename":"https://i.pinimg.com/originals/f1/22/f2/f122f2bb20b70e32840e69f17a85d826.jpg",
                         "alt":"",
                     },
                     {
-                        "title":"Paysages a coupé le soufle",
+                        "title":"Pyasages a coupé le soufle",
                         "filename":"https://www.partir.com/images/pays/pays-photos-800/senegal-dakar-plage.jpg",
                         "alt":"",
                     },
